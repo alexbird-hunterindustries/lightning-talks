@@ -11,17 +11,27 @@ breaks: 'off'
 
 # So many ways to couple!
 
+A taxonomy of coupling as described in "Building Evolutionary Architectures"
+
+![](./images/building-evolutionary-architectures.png)
+
 ---
 
 ## Coupling
 
-Two things are coupled if a change to one requires a change together
+Coupling == Connection
+
+![](./images/coupling.jpg)
+
+Change the size or shape of one end; we'll also have to make the same change on the other
 
 ---
 
 ## Too much coupling is bad
 
-If everything is coupled to everything then we can't change anything without changing everything
+If everything is coupled to everything  
+
+then every change requires editing everything
 
 ---
 
@@ -35,7 +45,9 @@ Coding is coupling.
 
 ## Couple wisely
 
-Since coupling costs, but we sell coupling, then let's make good choices about what we couple together
+Not "avoid coupling"
+
+Rather: "make good choices about how and what we couple"
 
 ---
 
@@ -65,15 +77,17 @@ From Chapter 5, section "Connascence"
 # Static: Name Coupling
 
 ```typescript
-function cleanHat() {
+function findHat() {
+  // ...
+}
+
+function main() {
   findHat();
 }
 
-function findHat() {
-}
 ```
 
-If you rename `findHat()`, you must update `cleanHat()` or the code won't compile
+If we rename `findHat()`, we must update `main()` or the code won't compile
 
 ---
 
@@ -89,7 +103,7 @@ function main() {
 }
 ```
 
-If you change the type of `toPrint` to a string, then you must update `main` or the code won't compile
+If we change the type of `toPrint` to a string, then we must update `main` or the code won't compile
 
 ---
 
@@ -143,7 +157,7 @@ If the client encodes JSON but the server expects CSV, the system won't work. Th
 
 ---
 
-# Dynamic: Order Coupling
+# Dynamic: Execution Coupling
 
 ```typescript
 const email = new Email();
@@ -195,8 +209,8 @@ This is like static name coupling, except it's at runtime.
 
 Two independent systems must reference the same entity for the overall system to work. Example:
 
-- Configure your SSO provider to redirect to `yourwebsite.com?authToken=$TOKEN` after a successful authentication
-- Your app code must read the query parameter named `authToken`
+- Configure our SSO provider to redirect to `ourwebsite.com?authToken=$TOKEN` after a successful authentication
+- Our app code must read the query parameter named `authToken`
 
 ---
 
