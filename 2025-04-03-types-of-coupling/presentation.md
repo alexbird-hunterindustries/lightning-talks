@@ -228,11 +228,3 @@ So what do we do with this list of coupling types?
 ---
 
 ![bg 100%](./images/coupling-refactoring.png)
-
----
-
-## Bottom Line
-
-If A and B are coupled (changing one requires changing the other)
-
-Then refactor so the compiler forces me to make A and B fit together
