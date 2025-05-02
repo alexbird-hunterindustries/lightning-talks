@@ -28,15 +28,23 @@ breaks: 'off'
 
 ---
 
+<div class="center">
+
 > Your yes means nothing if you can't say no
-> -- Meschell Ndegeocello
+> — Meshell Ndegeocello
+
+</div>
 
 ---
+
+<div class="center">
 
 > When I visit your team I am comfortable making suggestions
 > because you have said "can we circle back to that" to suggestions
 > that I have made
-> -- Sharon
+> — Sharon
+
+</div>
 
 ---
 
