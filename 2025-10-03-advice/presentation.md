@@ -12,11 +12,12 @@ breaks: 'off'
 <style>
   .title {
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     flex-direction: column;
     align-items: center;
     height: 100%;
     position: relative;
+    color: white;
     
     img {
       position: absolute;
@@ -44,6 +45,8 @@ breaks: 'off'
 <div class="title">
 
 # "Near Enemies" of Advice
+
+![](images/first-slide.jpg)
 
 </div>
 
