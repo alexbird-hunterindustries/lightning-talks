@@ -54,11 +54,15 @@ breaks: 'off'
 
 Eating all your muffins is a far enemy of baking you muffins
 
+![bg left 80%](./images/eat.png)
+
 ---
 
 # Near Enemy
 
 Baking you muffins with an ingredient you're allergic to is a near enemy of baking you muffins
+
+![bg right 80%](./images/muffin.png)
 
 ---
 
