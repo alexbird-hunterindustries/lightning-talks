@@ -28,6 +28,8 @@ breaks: 'off'
 
 ## Heuristics for when to plan less and more
 
+![bg](./images/straight-road-3.jpg)
+
 ---
 
 ![bg](./images/straight-road-1.jpg)
@@ -35,10 +37,6 @@ breaks: 'off'
 ---
 
 ![bg](./images/straight-road-2.jpg)
-
----
-
-![bg](./images/straight-road-3.jpg)
 
 ---
 
