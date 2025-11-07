@@ -22,11 +22,19 @@ breaks: 'off'
     margin-bottom: auto;
 }
 
+.align-upper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+}
+
 </style>
 
-# Speeding up and slowing down
-
-## Heuristics for when to plan less and more
+<div class="align-upper">
+<h1>Speeding up and slowing down</h1>
+<h2>Heuristics for when to plan less and more</h2>
+</div>
 
 ![bg](./images/straight-road-3.jpg)
 
