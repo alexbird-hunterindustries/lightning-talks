@@ -14,6 +14,12 @@ breaks: 'off'
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
+}
+
+.row > * {
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 </style>
@@ -85,6 +91,42 @@ Drive for the conditions
 <div class="row">
 <img width="400px" src="./images/platter.jpg"/>
 <img width="400px" src="./images/platter.jpg"/>
+<img width="400px" src="./images/platter.jpg"/>
+</div>
+
+---
+
+# Algorithm 1: Look Inside
+
+<br/>
+
+<div class="row">
+<img width="400px" src="./images/platter.jpg"/>
+<img width="400px" src="./images/platter.jpg"/>
+<img width="400px" src="./images/platter.jpg"/>
+</div>
+
+---
+
+# Algorithm 1: Look Inside
+
+<br/>
+
+<div class="row">
+<img width="400px" src="./images/dirt.jpg"/>
+<img width="400px" src="./images/platter.jpg"/>
+<img width="400px" src="./images/platter.jpg"/>
+</div>
+
+---
+
+# Algorithm 1: Look Inside
+
+<br/>
+
+<div class="row">
+<img width="400px" src="./images/dirt.jpg"/>
+<img width="400px" src="./images/dirt.jpg"/>
 <img width="400px" src="./images/platter.jpg"/>
 </div>
 
@@ -179,6 +221,12 @@ Works well when exploring is expensive
 
 ---
 
+## The Planning Tradeoff
+
+The higher the cost to explore, the bigger the budget for research
+
+---
+
 ## Bead Door Examples
 
 - Choosing a library to transform data
@@ -191,9 +239,9 @@ Works well when exploring is expensive
 
 ## One-way Door Examples
 
+- Adopting a library's data format throughout our code
 - Moving customer data into a new database
 - Choosing a translation strategy and using it throughout the UI
-- Setting a pattern and using it throughout the code
 
 ![bg right 70%](./images/one-airpot-security-door.jpg)
 
@@ -214,9 +262,11 @@ The higher the cost to explore, the bigger the budget for research
 
 ## Examples: de-risking decisions
 
-- Prove the database with sample data
+- Wrap the library to convert the library data format to one we choose; couple to our format
+  - (This is an anti-corruption layer)
+- Prove the database with sample data (e.g. dual write)
 - Prove the translation strategy with a small part of the UI
-- Prove a pattern in a narrow scope
+  - (i.e. Replace the decision with an experiment)
 
 ---
 
