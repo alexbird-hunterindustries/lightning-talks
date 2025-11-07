@@ -24,15 +24,15 @@ breaks: 'off'
 
 ---
 
-![bg](./images/straight-road-1.JPG)
+![bg](./images/straight-road-1.jpg)
 
 ---
 
-![bg](./images/straight-road-2.JPG)
+![bg](./images/straight-road-2.jpg)
 
 ---
 
-![bg](./images/straight-road-3.JPG)
+![bg](./images/straight-road-3.jpg)
 
 ---
 
