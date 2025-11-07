@@ -207,7 +207,7 @@ Drive for the conditions
 
 ## Explore everything
 
-Works well when it's cheap to explore
+Works well when it's cheap to experiment
 
 ![bg left 70%](./images/tall-bead-door.jpg)
 
@@ -215,7 +215,7 @@ Works well when it's cheap to explore
 
 ## Research
 
-Works well when exploring is expensive
+Works well when experimenting is expensive
 
 ![bg right 70%](./images/one-airpot-security-door.jpg)
 
@@ -223,7 +223,7 @@ Works well when exploring is expensive
 
 ## The Planning Tradeoff
 
-The higher the cost to explore, the bigger the budget for research
+The higher the cost to experiment, the bigger the budget for research and planning
 
 ---
 
@@ -239,6 +239,7 @@ The higher the cost to explore, the bigger the budget for research
 
 ## One-way Door Examples
 
+- Releasing a public API to customers
 - Adopting a library's data format throughout our code
 - Moving customer data into a new database
 - Choosing a translation strategy and using it throughout the UI
@@ -249,12 +250,13 @@ The higher the cost to explore, the bigger the budget for research
 
 ## The Planning Tradeoff
 
-The higher the cost to explore, the bigger the budget for research
+The higher the cost to experiment, the bigger the budget for research and planning
 
 ---
 
 ## Hack: make 1-way-doors 2-way
 
+- Pre-release the API to one customer with an agreement that it might change
 - Reduce the scope of the experiment
 - Make it easy to reverse
 
