@@ -5,7 +5,8 @@ function sauce {
   child_processes="$2"
 
   directory="$(dirname "${file_name}")"
-  npx nodemon@latest --exec "npx @marp-team/marp-cli@latest $file_name" --watch "$directory" --ext "*" --ignore "**/*.html" &
+  marp_command="npx @marp-team/marp-cli@latest $file_name"
+  npx nodemon@latest --on-change-only --exec "$marp_command" --watch "$directory" --ext "*" --ignore "**/*.html" &
 }
 export -f sauce
 
