@@ -6,4 +6,5 @@
 - [2025-05: Saying "no" at work](./2025-05-02-saying-no/presentation.html)
 - [2025-09: Deciding Together](./2025-09-05-deciding/presentation.html)
 - [2025-10: Near Enemies of Advice](./2025-10-03-advice/presentation.html)
+- [2025-11: Speeding up and slowing down](./2025-11-07-when-to-plan/presentation.html)
 
