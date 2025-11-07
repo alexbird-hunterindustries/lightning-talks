@@ -52,6 +52,16 @@ breaks: 'off'
 
 ---
 
+# We drive for the conditions
+
+---
+
+# Decision making in software is similar
+
+Drive for the conditions
+
+---
+
 # Speed by default
 # Slow for hazards
 
@@ -240,3 +250,10 @@ In this case, "try the first idea" won't make you faster
 - *gas pedal*: "This looks reversible, can we **try something?**"
 - *pump the breaks*: "This seems like a significant decision, **can we write a plan?**" (Consider writing an ADR.)
 - *pump the breaks*: "Before we commit, could we run a **reversible experiment?**"
+
+---
+
+# Speed by default
+# Slow for hazards
+
+![bg right ](./images/straight-road-3.jpg)
