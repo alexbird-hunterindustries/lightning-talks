@@ -1,6 +1,6 @@
 # Lightning Talks
 
-- [2026-09-04]()
+- [2026-09-04: Dynamo DB](./2026-09-04-dynamodb/presentation.html)
 - [2025-12-05: Humility - a Brain Hack for Creativity](./2025-12-05-humility-brain-hack/presentation.html)
 - [2025-11: Speeding up and slowing down](./2025-11-07-when-to-plan/presentation.html)
 - [2025-10: Near Enemies of Advice](./2025-10-03-advice/presentation.html)
