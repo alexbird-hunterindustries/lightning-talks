@@ -73,6 +73,13 @@ h1 + h2 {
 O seam 'tween the stacks  
 O abstraction extraordinaire
 
+---
+
+# Ode to the API (I)
+
+O seam 'tween the stacks  
+O abstraction extraordinaire
+
 How I love the ease
 of seeing what's going on in there
 
@@ -147,6 +154,13 @@ The API is
 ---
 
 ![bg](./images/background-original.jpg)
+
+---
+
+# Ode to the API (II)
+
+O pithy expression of
+irrigation quintessence
 
 ---
 
@@ -245,6 +259,13 @@ The API is
 ---
 
 ![bg](./images/background-original.jpg)
+
+---
+
+# Ode to the API (III)
+
+O declaration of intent
+O expression of purpose
 
 ---
 
