@@ -80,13 +80,12 @@ O abstraction extraordinaire
 O seam 'tween the stacks  
 O abstraction extraordinaire
 
-How I love the ease
-of seeing what's going on in there
+How I love the ease of seeing
+what's going on in there
 
 ---
 
-# The API as...
-### The Best Debugging Seam
+# Our Stack
 
 |                             | ... |
 |-----------------------------|-----|
@@ -98,25 +97,24 @@ of seeing what's going on in there
 
 ---
 
-# The API as...
-### The Best Debugging Seam
+# Our Stack
 
-|                             | how to inspect                          |
-|-----------------------------|-----------------------------------------|
-| db                          | db browser                              |
-| backend code (with logging) | CloudWatch                              |
-| backend code (no logging)   | redeploy with logging, then CloudWatch  |
-| API                         | network tab                             |
-| frontend code               | browser debugger (must replay incident) |
+|                             | how to inspect                                          |
+|-----------------------------|---------------------------------------------------------|
+| db                          | db browser                                              |
+| backend code (with logging) | CloudWatch                                              |
+| backend code (no logging)   | redeploy with logging, then CloudWatch                  |
+| API                         | network tab                                             |
+| frontend code               | stack trace<br/>browser debugger (must replay incident) |
 
 ---
 
 # The API as...
 ### The Best Debugging Seam
 
-- Every other part of the stack requires
+- Inspecting any other part of the stack requires
   - special instrumentation
-  - another tool to inspect
+  - another tool
   - redeploying
   - re-creating the incident
    
@@ -125,9 +123,9 @@ of seeing what's going on in there
 # The API as...
 ### The Best Debugging Seam
 
-- Every other part of the stack requires
+- Inspecting any other part of the stack requires
   - special instrumentation
-  - another tool to inspect
+  - another tool
   - redeploying
   - re-creating the incident
 - The API request response
@@ -318,13 +316,12 @@ Are unmoved by the superfluous
 
 ---
 
-# Aside: API contract change
+# The API as...
+### A more permanent interface
 
-The API Contract is more than shape. It includes:
-
-- the path
-- the request/response shape
-- the behavior (given input X, we'll have behavior Y)
+- to fully validate an API endpoint contract change
+  - include the infrastructure in the test scope (probably E2E)
+- Methods/classes changes can be fully validated with unit tests
 
 ---
 
@@ -381,8 +378,8 @@ Protect, express, and communicate about our API design more than we would with f
 O seam 'tween the stacks  
 O abstraction extraordinaire
 
-How I love the ease
-of seeing what's going on in there
+How I love the ease of seeing
+what's going on in there
 
 ---
 
