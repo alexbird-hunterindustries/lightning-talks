@@ -1,5 +1,6 @@
 # Lightning Talks
 
+- [2026-10-02: Ode to the API](./2026-10-02-ode-to-the-api/presentation.html)
 - [2026-09-04: Dynamo DB](./2026-09-04-dynamodb/presentation.html)
 - [2025-12-05: Humility - a Brain Hack for Creativity](./2025-12-05-humility-brain-hack/presentation.html)
 - [2025-11: Speeding up and slowing down](./2025-11-07-when-to-plan/presentation.html)
