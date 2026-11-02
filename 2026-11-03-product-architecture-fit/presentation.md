@@ -74,7 +74,7 @@ h2:has(+ h1) {
 </style>
 <div class='title-page'>
 
-# Finding Product-Architecture Fit
+# Find Architecture-Product Fit
 ## De-stress stakeholders, delight customers, and avoid waste
 
 </div>
@@ -121,9 +121,9 @@ h2:has(+ h1) {
 
 
 # What went wrong?
-- concrete pad in wrong place
 - concrete pad too big
-- no time for windows
+- concrete pad in wrong place 
+- no time for windows 
 
 ![bg right ](./images/poor-fit.jpeg)
 
@@ -143,6 +143,29 @@ h2:has(+ h1) {
 
 
 # So what happened?
+![bg right ](./images/poor-fit.jpeg)
+
+
+---
+
+
+# But first, Hi 👋🏻
+
+I'm Alex Bird  
+Distinguished Software Engineer  
+Hunter Industries  
+
+[mstdn.ca/@alexanderbird](https://mstdn.ca/@alexanderbird)  
+[alexanderbird.software](https://alexanderbird.software)  
+
+![bg right](./images/alexanderbird.jpg)
+
+
+---
+
+
+# So what happened?
+![bg right ](./images/poor-fit.jpeg)
 
 
 ---
@@ -155,15 +178,26 @@ h2:has(+ h1) {
 ---
 
 
-# Dev Team's Feature List
-![bg center 80%](./images/dev-team-feature-list.jpg)
+# Product Owner's Expected Burn-Up
+![bg center 80%](./images/PO-burn-up-dream.png)
 
 
 ---
 
 
 # Product Owner's Expected Burn-Up
-![bg center 80%](./images/PO-burn-up-dream.png)
+![bg center 80%](./images/PO-burn-up-dream-stress-chart.png)
+
+
+---
+
+# But...
+
+---
+
+
+# Dev Team's Feature List
+![bg center 80%](./images/dev-team-feature-list.jpg)
 
 
 ---
@@ -176,22 +210,36 @@ h2:has(+ h1) {
 ---
 
 
-# Week 1
-![bg center 80%](./images/week-1-status.png)
+# Week 2
+![bg center 80%](./images/week-2-status.png)
 
 
 ---
 
 
 # Week 2
-![bg center 80%](./images/actual-burn-up-3.png)
+![bg center 80%](./images/actual-burn-up-2.png)
 
 
 ---
 
 
 # Week 3
-![bg center 80%](./images/actual-burn-up-4.png)
+![bg center 80%](./images/week-3-status.png)
+
+
+---
+
+
+# Week 3
+![bg center 80%](./images/actual-burn-up-3.png)
+
+
+---
+
+
+# Weeks 4-5
+![bg center 80%](./images/week-5-status.png)
 
 
 ---
@@ -204,28 +252,6 @@ h2:has(+ h1) {
 ---
 
 
-# Weeks 4-5
-![bg center 80%](./images/week-3-status.png)
-
-
----
-
-
-# What actually happened
-## Week 6
-![bg center 80%](./images/actual-burn-up-6.png)
-
-
----
-
-
-# Week 5
-![bg center 80%](./images/week-6-status.png)
-
-
----
-
-
 # Last Minute Calendar Invite
 ![bg center 80%](./images/project-checkin-meeting-invite.png)
 
@@ -233,28 +259,60 @@ h2:has(+ h1) {
 ---
 
 
-# Week 5
-![bg center 80%](./images/week-6-status-updated.png)
+# Last Minute Calendar Invite
+![bg center 80%](./images/week-5-status-updated.png)
 
 
 ---
 
 
-# What actually happened
-## Week 7
+# Week 6
+![bg center 80%](./images/week-6-status.png)
+
+
+---
+
+
+# Week 6
+![bg center 80%](./images/actual-burn-up-6.png)
+
+
+---
+
+
+# Week 7
+![bg center 80%](./images/week-7-status.png)
+
+
+---
+
+
+# Week 7
 ![bg center 80%](./images/actual-burn-up-7.png)
 
 
 ---
 
 
-# What we wished for
-![bg center 80%](./images/PO-burn-up-dream.png)
+# On Time
+# On Budget
+# 😉
+![bg right ](./images/poor-fit.jpeg)
 
 
 ---
 
-# Finding Product-Architecture Fit
+
+# Find Architecture-Product Fit
+
+- De-stress Stakeholders
+- Delight Customers
+- Reduce Waste
+
+
+---
+
+# Find Architecture-Product Fit
 
  - <span class='emphasis'>First point</span>
  - <span class='deemphasis'>Second point</span>
@@ -282,7 +340,7 @@ h2:has(+ h1) {
 
 ---
 
-# Finding Product-Architecture Fit
+# Find Architecture-Product Fit
 
  - First point
  - <span class='emphasis'>Second point</span>
@@ -290,7 +348,7 @@ h2:has(+ h1) {
 
 ---
 
-# Finding Product-Architecture Fit
+# Find Architecture-Product Fit
 
  - First point
  - Second point

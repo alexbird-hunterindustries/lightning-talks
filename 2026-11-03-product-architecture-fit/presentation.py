@@ -15,7 +15,7 @@ presentation = (
     )
     .with_stylesheet(current_directory.parent / 'shared' / 'style.1.0.0.css')
     .with_title(
-        title="Finding Product-Architecture Fit",
+        title="Find Architecture-Product Fit",
         subtitle="De-stress stakeholders, delight customers, and avoid waste"
     )
     .with_slides(introduction_slides)
