@@ -69,6 +69,13 @@ architecture_informed_2d_backlogs = (
         - why can't I....????
         - why is it so.....????
     """)
+    .with_slide("""
+        # Architecture-Product Fit
+        
+        Basically we just need to talk to each other
+
+        ![bg right ](./images/good-fit.jpeg)
+    """)
 )
 
 

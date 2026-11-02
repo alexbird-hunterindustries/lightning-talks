@@ -614,40 +614,40 @@ rank top bottom
 
 # How to Rank
 
-        - Product Owners and Devs must collaborate
+- Product Owners and Devs must collaborate
 
 ---
 
 # How to Rank
 
-        - Product Owners and Devs must collaborate
-        - What is possible to build this week?
+- Product Owners and Devs must collaborate
+- What is possible to build this week?
 
 ---
 
 # How to Rank
 
-        - Product Owners and Devs must collaborate
-        - What is possible to build this week?
-        - What is worth building this week?
+- Product Owners and Devs must collaborate
+- What is possible to build this week?
+- What is worth building this week?
 
 ---
 
 # How to Rank
 
-        - Product Owners and Devs must collaborate
-        - What is possible to build this week?
-        - What is worth building this week?
-        - What do we need to stitch that together into a complete user journey?
+- Product Owners and Devs must collaborate
+- What is possible to build this week?
+- What is worth building this week?
+- What do we need to stitch that together into a complete user journey?
 
 ---
 
 # How to Rank
 
-        - Product Owners and Devs must collaborate
-        - What is possible to build this week?
-        - What is worth building this week?
-        - What do we need to stitch that together into a complete user journey?
+- Product Owners and Devs must collaborate
+- What is possible to build this week?
+- What is worth building this week?
+- What do we need to stitch that together into a complete user journey?
 
 
 ---

@@ -12,7 +12,7 @@ class Section:
         return self
 
     def with_auto_animated_slide(self, title: str, animate_each_line: str):
-        return self.with_animated_slide(title, animate_each_line.split('\n'))
+        return self.with_animated_slide(title, [textwrap.dedent(x) for x in animate_each_line.split('\n')])
 
     def with_animated_slide(self, title: str, animations: List[str]):
         slide_so_far = textwrap.dedent(title)
