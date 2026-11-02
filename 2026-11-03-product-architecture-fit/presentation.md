@@ -508,9 +508,9 @@ That's what we're talking about today
 
 # Find Architecture-Product Fit
 
- - <span class='emphasis'>First point</span>
- - <span class='deemphasis'>Second point</span>
- - <span class='deemphasis'>Third point</span>
+ - <span class='emphasis'>Backlog Shapes: 1D, 2D</span>
+ - <span class='deemphasis'>Architecture-informed 2D Backlogs</span>
+ - <span class='deemphasis'>Feature-Architecture Hors D'oeuvres</span>
 
 ---
 
@@ -536,22 +536,127 @@ That's what we're talking about today
 
 # Find Architecture-Product Fit
 
- - First point
- - <span class='emphasis'>Second point</span>
- - <span class='deemphasis'>Third point</span>
+ - Backlog Shapes: 1D, 2D
+ - <span class='emphasis'>Architecture-informed 2D Backlogs</span>
+ - <span class='deemphasis'>Feature-Architecture Hors D'oeuvres</span>
 
 ---
 
 # Find Architecture-Product Fit
 
- - First point
- - Second point
- - <span class='emphasis'>Third point</span>
+ - Backlog Shapes: 1D, 2D
+ - Architecture-informed 2D Backlogs
+ - <span class='emphasis'>Feature-Architecture Hors D'oeuvres</span>
 
 ---
 
 
-# Closing Slide
-## Final Remarks
+# The Essence
 
-- neat
+
+---
+
+
+# The Essence
+
+ - Stakeholders and devs talk
+
+---
+
+
+# The Essence
+
+ - Stakeholders and devs talk
+    - marketing goals vs product constraints
+
+---
+
+
+# The Essence
+
+ - Stakeholders and devs talk
+    - marketing goals vs product constraints
+    - combined into a better plan
+
+---
+
+
+# The Essence
+
+ - Stakeholders and devs talk
+    - marketing goals vs product constraints
+    - combined into a better plan
+ - Build the features that drive the infrastructure
+
+---
+
+
+# The Essence
+
+ - Stakeholders and devs talk
+    - marketing goals vs product constraints
+    - combined into a better plan
+ - Build the features that drive the infrastructure
+    - Rejig the priorities for visual progress
+
+---
+
+
+# The Essence
+
+ - Stakeholders and devs talk
+    - marketing goals vs product constraints
+    - combined into a better plan
+ - Build the features that drive the infrastructure
+    - Rejig the priorities for visual progress
+        - (instead of the dreaded hockey stick)
+
+---
+
+
+# The Essence
+
+ - Stakeholders and devs talk
+    - marketing goals vs product constraints
+    - combined into a better plan
+ - Build the features that drive the infrastructure
+    - Rejig the priorities for visual progress
+        - (instead of the dreaded hockey stick)
+ - Build the infrastructure to support the features
+
+---
+
+
+# The Essence
+
+ - Stakeholders and devs talk
+    - marketing goals vs product constraints
+    - combined into a better plan
+ - Build the features that drive the infrastructure
+    - Rejig the priorities for visual progress
+        - (instead of the dreaded hockey stick)
+ - Build the infrastructure to support the features
+    - Fake it at first
+
+---
+
+
+# Wait isn't this just XP?
+
+- Yeah basically
+- This stuff still works!
+
+
+---
+
+
+# Thanks for Having Me!
+
+Alex Bird  
+Distinguished Software Engineer  
+Hunter Industries  
+
+[mstdn.ca/@alexanderbird](https://mstdn.ca/@alexanderbird)  
+[alexanderbird.software](https://alexanderbird.software)  
+
+![bg right](./images/alexanderbird.jpg)
