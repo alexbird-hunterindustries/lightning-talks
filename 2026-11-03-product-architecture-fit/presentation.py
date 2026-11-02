@@ -4,7 +4,8 @@ from tools.collate.presentation import Presentation
 from section_1 import section_1
 from section_2 import section_2
 from section_3 import section_3
-from introduction_slides import introduction_slides
+from _01_introduction_slides import introduction_slides
+from _02_slides_to_tie_in_to_the_current_hype import slides_to_tie_in_to_the_current_hype
 
 current_directory = Path(__file__).resolve().parent
 
@@ -19,6 +20,7 @@ presentation = (
         subtitle="De-stress stakeholders, delight customers, and avoid waste"
     )
     .with_slides(introduction_slides)
+    .with_slides(slides_to_tie_in_to_the_current_hype)
     .with_section("First point", section_1)
     .with_section("Second point", section_2)
     .with_section("Third point", section_3)
