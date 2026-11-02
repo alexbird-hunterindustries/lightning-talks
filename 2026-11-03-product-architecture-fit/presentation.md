@@ -3,7 +3,7 @@ theme: gaia
 _class: lead
 paginate: true
 backgroundColor: #fff
-backgroundImage: url('./images/background.jpg')
+backgroundImage: url('./images/watercolour-background.jpg')
 footer: 
 color: #000
 breaks: off
@@ -68,8 +68,8 @@ h1 + h2 {
 </style>
 <div class='title-page'>
 
-# Cool
-## Beans
+# Finding Product-Architecture Fit
+## De-stress stakeholders, delight customers, and avoid waste
 
 </div>
 
@@ -77,17 +77,25 @@ h1 + h2 {
 ---
 
 
-# Neat
-## Nifty
+# What went wrong?
 
-- lots
-- of
-- stuff
+![bg right ](./images/poor-fit.jpeg)
 
 
 ---
 
-# Cool
+
+# What went wrong?
+- concrete pad in wrong place
+- concrete pad too big
+- no time for windows
+
+![bg right ](./images/poor-fit.jpeg)
+
+
+---
+
+# Finding Product-Architecture Fit
 
  - <span class='emphasis'>First point</span>
  - <span class='deemphasis'>Second point</span>
@@ -115,7 +123,7 @@ h1 + h2 {
 
 ---
 
-# Cool
+# Finding Product-Architecture Fit
 
  - First point
  - <span class='emphasis'>Second point</span>
@@ -123,7 +131,7 @@ h1 + h2 {
 
 ---
 
-# Cool
+# Finding Product-Architecture Fit
 
  - First point
  - Second point
