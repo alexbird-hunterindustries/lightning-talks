@@ -11,6 +11,9 @@ class Section:
         self.slides.append(textwrap.dedent(markdown))
         return self
 
+    def with_auto_animated_slide(self, title: str, animate_each_line: str):
+        return self.with_animated_slide(title, animate_each_line.split('\n'))
+
     def with_animated_slide(self, title: str, animations: List[str]):
         slide_so_far = textwrap.dedent(title)
         self.slides.append(slide_so_far)

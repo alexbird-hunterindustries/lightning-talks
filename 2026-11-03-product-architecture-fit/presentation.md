@@ -515,21 +515,139 @@ That's what we're talking about today
 ---
 
 
-# Cool Cats
+# 1D backlog
 
-- the first
-- the second
-- the third
+- List the stuff
 
 
 ---
 
 
-# Eat My Shorts
+# If the devs get to rank the list
 
-- now
-- later
-- or never
+
+---
+
+
+# If the devs get to rank the list
+
+- Long gaps of invisible "backend work" 🏒
+
+---
+
+
+# If the devs get to rank the list
+
+- Long gaps of invisible "backend work" 🏒
+- Technically related items grouped together
+
+---
+
+
+# If the devs get to rank the list
+
+- Long gaps of invisible "backend work" 🏒
+- Technically related items grouped together
+    - Lots of features built, but no end-to-end customer experience- No cohesive product until the end
+
+---
+
+
+# If the POs get to rank the list
+
+
+---
+
+
+# If the POs get to rank the list
+
+- Highest priority feature takes forever 🏒
+
+---
+
+
+# If the POs get to rank the list
+
+- Highest priority feature takes forever 🏒
+    - The devs end up doing lots of invisible "backend work" anyway
+
+---
+
+
+# If the POs get to rank the list
+
+- Highest priority feature takes forever 🏒
+    - The devs end up doing lots of invisible "backend work" anyway
+- No cohesive product until the end
+
+---
+
+
+# 2D backlog
+
+- Horizontal Axis: Customer Journey
+- Vertical Axis: Priority
+
+
+---
+
+
+# User Story Map
+
+TODO: example user story map
+
+talk about journey left right
+
+rank top bottom
+
+
+---
+
+# How to Rank
+
+---
+
+# How to Rank
+
+
+---
+
+# How to Rank
+
+        - Product Owners and Devs must collaborate
+
+---
+
+# How to Rank
+
+        - Product Owners and Devs must collaborate
+        - What is possible to build this week?
+
+---
+
+# How to Rank
+
+        - Product Owners and Devs must collaborate
+        - What is possible to build this week?
+        - What is worth building this week?
+
+---
+
+# How to Rank
+
+        - Product Owners and Devs must collaborate
+        - What is possible to build this week?
+        - What is worth building this week?
+        - What do we need to stitch that together into a complete user journey?
+
+---
+
+# How to Rank
+
+        - Product Owners and Devs must collaborate
+        - What is possible to build this week?
+        - What is worth building this week?
+        - What do we need to stitch that together into a complete user journey?
 
 
 ---
@@ -542,11 +660,139 @@ That's what we're talking about today
 
 ---
 
+
+# Build the features that drive the infra
+
+- devs say "we need a db"
+- play the simplest feature that needs db
+- e.g. when we return to the page tomorrow, data is still there
+
+
+---
+
+
+# Build the infra to support the feature
+
+- product says "when we return to the page tomorrow, data is still there"
+- build the simplest infra to support the feature
+- e.g. store data in local storage
+
+
+---
+
+
+# Build the features that drive the infra
+
+- devs say "we need a db"
+- play the simplest feature that needs db
+- e.g. "when I browser from another device, data is still there"
+
+
+---
+
+
+# Build the infra to support the feature
+
+- product says "when I browser from another device, data is still there"
+- build the simplest infra to support the feature
+- e.g. basic db, no auth
+
+
+---
+
+
+# Build the features that drive the infra
+
+- devs say "we need authentication"
+- play the simplest feature that needs db
+- e.g. "when I browse from user B's account, I can't see user A's data"
+
+
+---
+
+# And so on
+
+---
+
+
+# Why
+
+- de-stress stakeholders
+- delight customers 
+- reduce waste
+
+
+---
+
+
+# 1D backlogs make waste
+
+- we have to build a bunch of infra for our first feature
+- we have to build a bunch of features for the first user journey
+
+
+---
+
+
+# 1D backlogs make stress
+
+- we have nothing to report while we're building infra
+- the demos make no sense when the features are disjointed
+
+
+---
+
+
+# 1D backlogs make waste
+
+- we build too much infra
+- we build too many features
+
+
+---
+
+
+# 1D backlogs make customers sad
+
+- why can't I....????
+- why is it so.....????
+
+
+---
+
 # Find Architecture-Product Fit
 
  - Backlog Shapes: 1D, 2D
  - Architecture-informed 2D Backlogs
  - <span class='emphasis'>Feature-Architecture Hors D'oeuvres</span>
+
+---
+
+
+# Build features before infra
+
+Here are some patterns for getting a slice of a feature out before having all the infra built
+
+
+---
+
+Fake the API -- build frontend-only
+
+---
+
+Real API, canned data
+
+---
+
+Real API, real db, hardcoded user info
+
+---
+
+User info from SSO integration, real API, real db, small scale
+
+---
+
+Big scale data from API to db and back
 
 ---
 

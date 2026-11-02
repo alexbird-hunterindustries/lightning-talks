@@ -3,32 +3,44 @@ from tools.collate.section import Section
 backlog_shapes = (
     Section()
     .with_slide("""
-        # Cool Cats
-
-        - the first
-        - the second
-        - the third
+        # 1D backlog
+        
+        - List the stuff
+    """)
+    .with_animated_slide("""
+        # If the devs get to rank the list
+    """, animations=[
+        '- Long gaps of invisible "backend work" 🏒',
+        '- Technically related items grouped together',
+        '    - Lots of features built, but no end-to-end customer experience'
+        '- No cohesive product until the end',
+    ])
+    .with_animated_slide("""
+        # If the POs get to rank the list
+    """, animations=[
+        '- Highest priority feature takes forever 🏒',
+        '    - The devs end up doing lots of invisible "backend work" anyway',
+        '- No cohesive product until the end'
+    ])
+    .with_slide("""
+        # 2D backlog
+        
+        - Horizontal Axis: Customer Journey
+        - Vertical Axis: Priority
     """)
     .with_slide("""
-        # Eat My Shorts
+        # User Story Map
         
-        - now
-        - later
-        - or never
+        TODO: example user story map
+        
+        talk about journey left right
+        
+        rank top bottom
+    """)
+    .with_auto_animated_slide("# How to Rank", animate_each_line="""
+        - Product Owners and Devs must collaborate
+        - What is possible to build this week?
+        - What is worth building this week?
+        - What do we need to stitch that together into a complete user journey?
     """)
 )
-"""
-
-antipattern: the 1d backlog. Make a list of things to build. "We need all of this". Build it for a few years. Maybe launch, maybe the project gets cancelled. If you launch, there's a bunch of stuff you built that folks don't use.
-improvement: 2d backlog -- x axis customer journey, y axis is product owner's triage from abridged MVP to extended director's cut. (classic User Story Mapping). Build all the infra you need, then start with the most important features. Launch after about 4 months. 
-
-The first 2.5 months were infra. Hockey stick graph. Stressed stakeholders.
-Overlay stakeholder stress over the hockey stick feature graph -- the longer we go in "infra building mode", the more stressed the stakeholders get
-even better: 2d backlog, with infra sliced into the features, so there's visible progress right away. 
-
-Contrast the linear graph with the hockey stick. 
-
-observe how the frequent feature delivery reduces stakeholder stress
-
-even if they're not the most important features, it's still visible progress
-"""
