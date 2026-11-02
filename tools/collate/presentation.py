@@ -128,6 +128,11 @@ class Presentation:
         self.slides.append(StaticMarkdown(markdown))
         return self
 
+    def with_slides(self, section: Section):
+        for slide in section.as_string_slides():
+            self.slides.append(StaticMarkdown(slide))
+        return self
+
     def with_section(self, title: str, section: Section):
         self.index_builder.add_item(title)
         self.slides.append(SectionMarkdown(

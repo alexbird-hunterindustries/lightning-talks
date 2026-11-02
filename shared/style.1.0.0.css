@@ -41,6 +41,12 @@ h1 + h2 {
     font-size: 22pt;
 }
 
+h2:has(+ h1) {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 22pt;
+}
+
 .title-page h1 + h2 {
     font-size: 0.8em;
 }

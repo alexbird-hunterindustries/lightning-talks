@@ -4,6 +4,7 @@ from tools.collate.presentation import Presentation
 from section_1 import section_1
 from section_2 import section_2
 from section_3 import section_3
+from introduction_slides import introduction_slides
 
 current_directory = Path(__file__).resolve().parent
 
@@ -17,19 +18,7 @@ presentation = (
         title="Finding Product-Architecture Fit",
         subtitle="De-stress stakeholders, delight customers, and avoid waste"
     )
-    .with_slide("""
-        # What went wrong?
-
-        ![bg right ](./images/poor-fit.jpeg)
-    """)
-    .with_slide("""
-        # What went wrong?
-        - concrete pad in wrong place
-        - concrete pad too big
-        - no time for windows
-
-        ![bg right ](./images/poor-fit.jpeg)
-    """)
+    .with_slides(introduction_slides)
     .with_section("First point", section_1)
     .with_section("Second point", section_2)
     .with_section("Third point", section_3)
