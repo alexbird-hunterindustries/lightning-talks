@@ -12,6 +12,11 @@ what_now = (
         - Everyone: talk to each other often
             - Like, just hang out and stuff, you know?
     """)
+    .with_slide("""
+        This cabin looks like the team didn't talk to each other
+        
+        ![bg right ](./images/poor-fit.jpeg)
+    """)
     .with_auto_animated_slide("""
         # What if we don't?
         
