@@ -12,7 +12,7 @@ backlog_shapes = (
     """, animations=[
         '- Long gaps of invisible "backend work" 🏒',
         '- Technically related items grouped together',
-        '    - Lots of features built, but no end-to-end customer experience'
+        '    - Lots of features built, but no end-to-end customer experience',
         '- No cohesive product until the end',
     ])
     .with_animated_slide("""

@@ -10,49 +10,54 @@ def titled_image(title: str , image: str) -> str:
 
 introduction_slides = (
     Section()
+    .with_auto_animated_slide("""
+        # For Sale: Cabin In The Woods
+        
+        ![bg right ](./images/poor-fit.jpeg)
+    """, animate_each_line="""
+        - cozy off-grid cabin
+        - beautiful mountain view from the deck
+        - classic cedar siding
+        - wood stove
+
+    """)
+    .with_auto_animated_slide("""
+        # Project: Cabin In The Woods
+        
+        ![bg right ](./images/poor-fit.jpeg)
+    """, animate_each_line="""
+        - large concrete pad
+        - located to get the best view
+        - cedar siding, metal roof
+        - wood stove
+    """)
     .with_slide("""
-        # What went wrong?
+        ## What went wrong?
+        
+        What parts of this picture look off?
 
         ![bg right ](./images/poor-fit.jpeg)
     """)
-    .with_slide("""
-        ## Wait, first
-        # What went right?
-
+    .with_auto_animated_slide("""
+        ## What went wrong?
+        
         ![bg right ](./images/poor-fit.jpeg)
-    """)
-    .with_slide("""
-        ## Wait, first
-        # What went right?
-        - we have a cozy cabin!
-        - heating works!
-        - door locks!
-
-        ![bg right ](./images/poor-fit.jpeg)
-    """)
-    .with_slide("""
-        # What went wrong?
-
-        ![bg right ](./images/poor-fit.jpeg)
-    """)
-    .with_slide("""
-        # What went wrong?
+    """, animate_each_line="""
         - concrete pad too big
         - concrete pad in wrong place 
         - no time for windows 
-
-        ![bg right ](./images/poor-fit.jpeg)
     """)
-    .with_slide("""
-        # What went wrong?
+    .with_auto_animated_slide("""
+        ## What went wrong?
+        
+        ![bg right ](./images/poor-fit.jpeg)
+    """, animate_each_line="""
         - Product owners: "devs took forever to start"
         - Customers: "...why is it like this??"
         - Devs worked hard, but nobody's happy
-
-        ![bg right ](./images/poor-fit.jpeg)
     """)
     .with_slide("""
-        # So what happened?
+        ## So what happened?
         ![bg right ](./images/poor-fit.jpeg)
     """)
     .with_slide("""
@@ -68,7 +73,7 @@ introduction_slides = (
         ![bg right](./images/alexanderbird.jpg)
     """)
     .with_slide("""
-        # So what happened?
+        ## So what happened?
         ![bg right ](./images/poor-fit.jpeg)
     """)
     .with_slide(titled_image("Product Owner's Feature List", "./images/PO-feature-list.jpg"))
@@ -95,9 +100,11 @@ introduction_slides = (
         # 😉
         ![bg right ](./images/poor-fit.jpeg)
     """)
-    .with_slide("""
+    .with_slide(titled_image("Dev Team's Feature List", "./images/dev-team-feature-list-at-end.png"))
+    .with_slide(titled_image("Product Owner's Feature List", "./images/PO-feature-list-at-end.png"))
+    .with_auto_animated_slide("""
         # Find Architecture-Product Fit
-        
+    """, animate_each_line="""
         - De-stress Stakeholders
         - Delight Customers
         - Reduce Waste

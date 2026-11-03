@@ -83,7 +83,7 @@ h2:has(+ h1) {
 ---
 
 
-# What went wrong?
+# For Sale: Cabin In The Woods
 
 ![bg right ](./images/poor-fit.jpeg)
 
@@ -91,8 +91,49 @@ h2:has(+ h1) {
 ---
 
 
-## Wait, first
-# What went right?
+# For Sale: Cabin In The Woods
+
+![bg right ](./images/poor-fit.jpeg)
+
+- cozy off-grid cabin
+
+---
+
+
+# For Sale: Cabin In The Woods
+
+![bg right ](./images/poor-fit.jpeg)
+
+- cozy off-grid cabin
+- beautiful mountain view from the deck
+
+---
+
+
+# For Sale: Cabin In The Woods
+
+![bg right ](./images/poor-fit.jpeg)
+
+- cozy off-grid cabin
+- beautiful mountain view from the deck
+- classic cedar siding
+
+---
+
+
+# For Sale: Cabin In The Woods
+
+![bg right ](./images/poor-fit.jpeg)
+
+- cozy off-grid cabin
+- beautiful mountain view from the deck
+- classic cedar siding
+- wood stove
+
+---
+
+
+# Project: Cabin In The Woods
 
 ![bg right ](./images/poor-fit.jpeg)
 
@@ -100,11 +141,51 @@ h2:has(+ h1) {
 ---
 
 
-## Wait, first
-# What went right?
-- we have a cozy cabin!
-- heating works!
-- door locks!
+# Project: Cabin In The Woods
+
+![bg right ](./images/poor-fit.jpeg)
+
+- large concrete pad
+
+---
+
+
+# Project: Cabin In The Woods
+
+![bg right ](./images/poor-fit.jpeg)
+
+- large concrete pad
+- located to get the best view
+
+---
+
+
+# Project: Cabin In The Woods
+
+![bg right ](./images/poor-fit.jpeg)
+
+- large concrete pad
+- located to get the best view
+- cedar siding, metal roof
+
+---
+
+
+# Project: Cabin In The Woods
+
+![bg right ](./images/poor-fit.jpeg)
+
+- large concrete pad
+- located to get the best view
+- cedar siding, metal roof
+- wood stove
+
+---
+
+
+## What went wrong?
+
+What parts of this picture look off?
 
 ![bg right ](./images/poor-fit.jpeg)
 
@@ -112,7 +193,7 @@ h2:has(+ h1) {
 ---
 
 
-# What went wrong?
+## What went wrong?
 
 ![bg right ](./images/poor-fit.jpeg)
 
@@ -120,29 +201,75 @@ h2:has(+ h1) {
 ---
 
 
-# What went wrong?
+## What went wrong?
+
+![bg right ](./images/poor-fit.jpeg)
+
+- concrete pad too big
+
+---
+
+
+## What went wrong?
+
+![bg right ](./images/poor-fit.jpeg)
+
+- concrete pad too big
+- concrete pad in wrong place 
+
+---
+
+
+## What went wrong?
+
+![bg right ](./images/poor-fit.jpeg)
+
 - concrete pad too big
 - concrete pad in wrong place 
 - no time for windows 
 
+---
+
+
+## What went wrong?
+
 ![bg right ](./images/poor-fit.jpeg)
 
 
 ---
 
 
-# What went wrong?
+## What went wrong?
+
+![bg right ](./images/poor-fit.jpeg)
+
+- Product owners: "devs took forever to start"
+
+---
+
+
+## What went wrong?
+
+![bg right ](./images/poor-fit.jpeg)
+
+- Product owners: "devs took forever to start"
+- Customers: "...why is it like this??"
+
+---
+
+
+## What went wrong?
+
+![bg right ](./images/poor-fit.jpeg)
+
 - Product owners: "devs took forever to start"
 - Customers: "...why is it like this??"
 - Devs worked hard, but nobody's happy
 
-![bg right ](./images/poor-fit.jpeg)
-
-
 ---
 
 
-# So what happened?
+## So what happened?
 ![bg right ](./images/poor-fit.jpeg)
 
 
@@ -164,7 +291,7 @@ Hunter Industries
 ---
 
 
-# So what happened?
+## So what happened?
 ![bg right ](./images/poor-fit.jpeg)
 
 
@@ -303,17 +430,51 @@ Hunter Industries
 ---
 
 
+# Dev Team's Feature List
+![bg center 80%](./images/dev-team-feature-list-at-end.png)
+
+
+---
+
+
+# Product Owner's Feature List
+![bg center 80%](./images/PO-feature-list-at-end.png)
+
+
+---
+
+
+# Find Architecture-Product Fit
+
+
+---
+
+
+# Find Architecture-Product Fit
+
+- De-stress Stakeholders
+
+---
+
+
+# Find Architecture-Product Fit
+
+- De-stress Stakeholders
+- Delight Customers
+
+---
+
+
 # Find Architecture-Product Fit
 
 - De-stress Stakeholders
 - Delight Customers
 - Reduce Waste
 
-
 ---
 
 
-# "But can't AI just...?"
+# "Bro it's 2026"
 
 
 ---
@@ -506,11 +667,25 @@ That's what we're talking about today
 
 ---
 
+
+# Find Architecture-Product Fit
+
+- Happy Stakeholders
+- Happy Customers
+- Happy Devs
+
+![bg right ](./images/poor-fit.jpeg)
+
+
+---
+
 # Find Architecture-Product Fit
 
  - <span class='emphasis'>Backlog Shapes: 1D, 2D</span>
  - <span class='deemphasis'>Architecture-informed 2D Backlogs</span>
  - <span class='deemphasis'>Feature-Architecture Hors D'oeuvres</span>
+ - <span class='deemphasis'>Pitfalls</span>
+ - <span class='deemphasis'>Things to Try This Week</span>
 
 ---
 
@@ -548,7 +723,17 @@ That's what we're talking about today
 
 - Long gaps of invisible "backend work" 🏒
 - Technically related items grouped together
-    - Lots of features built, but no end-to-end customer experience- No cohesive product until the end
+    - Lots of features built, but no end-to-end customer experience
+
+---
+
+
+# If the devs get to rank the list
+
+- Long gaps of invisible "backend work" 🏒
+- Technically related items grouped together
+    - Lots of features built, but no end-to-end customer experience
+- No cohesive product until the end
 
 ---
 
@@ -608,25 +793,17 @@ rank top bottom
 ---
 
 # How to Rank
-
-
----
-
-# How to Rank
-
 - Product Owners and Devs must collaborate
 
 ---
 
 # How to Rank
-
 - Product Owners and Devs must collaborate
 - What is possible to build this week?
 
 ---
 
 # How to Rank
-
 - Product Owners and Devs must collaborate
 - What is possible to build this week?
 - What is worth building this week?
@@ -634,21 +811,10 @@ rank top bottom
 ---
 
 # How to Rank
-
 - Product Owners and Devs must collaborate
 - What is possible to build this week?
 - What is worth building this week?
 - What do we need to stitch that together into a complete user journey?
-
----
-
-# How to Rank
-
-- Product Owners and Devs must collaborate
-- What is possible to build this week?
-- What is worth building this week?
-- What do we need to stitch that together into a complete user journey?
-
 
 ---
 
@@ -657,6 +823,8 @@ rank top bottom
  - Backlog Shapes: 1D, 2D
  - <span class='emphasis'>Architecture-informed 2D Backlogs</span>
  - <span class='deemphasis'>Feature-Architecture Hors D'oeuvres</span>
+ - <span class='deemphasis'>Pitfalls</span>
+ - <span class='deemphasis'>Things to Try This Week</span>
 
 ---
 
@@ -760,39 +928,13 @@ rank top bottom
 
 ---
 
-# Find Architecture-Product Fit
 
- - Backlog Shapes: 1D, 2D
- - Architecture-informed 2D Backlogs
- - <span class='emphasis'>Feature-Architecture Hors D'oeuvres</span>
+# Architecture-Product Fit
 
----
+Basically we just need to talk to each other
 
+![bg right ](./images/good-fit.jpeg)
 
-# Build features before infra
-
-Here are some patterns for getting a slice of a feature out before having all the infra built
-
-
----
-
-Fake the API -- build frontend-only
-
----
-
-Real API, canned data
-
----
-
-Real API, real db, hardcoded user info
-
----
-
-User info from SSO integration, real API, real db, small scale
-
----
-
-Big scale data from API to db and back
 
 ---
 
@@ -891,6 +1033,711 @@ Big scale data from API to db and back
 
 - Yeah basically
 - This stuff still works!
+
+
+---
+
+# Find Architecture-Product Fit
+
+ - Backlog Shapes: 1D, 2D
+ - Architecture-informed 2D Backlogs
+ - <span class='emphasis'>Feature-Architecture Hors D'oeuvres</span>
+ - <span class='deemphasis'>Pitfalls</span>
+ - <span class='deemphasis'>Things to Try This Week</span>
+
+---
+
+
+# Build features before infra
+
+Here are some patterns for getting a slice of a feature out before having all the infra built
+
+
+---
+
+Fake the API -- build frontend-only
+
+---
+
+Real API, canned data
+
+---
+
+Real API, real db, hardcoded user info
+
+---
+
+User info from SSO integration, real API, real db, small scale
+
+---
+
+Big scale data from API to db and back
+
+---
+
+# Find Architecture-Product Fit
+
+ - Backlog Shapes: 1D, 2D
+ - Architecture-informed 2D Backlogs
+ - Feature-Architecture Hors D'oeuvres
+ - <span class='emphasis'>Pitfalls</span>
+ - <span class='deemphasis'>Things to Try This Week</span>
+
+---
+
+something about malleable code
+
+---
+
+example about YAGNI -- feature flagging hardcoded
+
+---
+
+example about YAGNI -- API algorithm hardcoded
+
+---
+
+# Find Architecture-Product Fit
+
+ - Backlog Shapes: 1D, 2D
+ - Architecture-informed 2D Backlogs
+ - Feature-Architecture Hors D'oeuvres
+ - Pitfalls
+ - <span class='emphasis'>Things to Try This Week</span>
+
+---
+
+
+# What Now?
+
+
+---
+
+
+# What Now?
+
+- Devs: take time to understand the code 
+
+---
+
+
+# What Now?
+
+- Devs: take time to understand the code 
+- Devs: take time to keep the code malleable
+
+---
+
+
+# What Now?
+
+- Devs: take time to understand the code 
+- Devs: take time to keep the code malleable
+- Budget Owners: say yes to unit testing, refactoring
+
+---
+
+
+# What Now?
+
+- Devs: take time to understand the code 
+- Devs: take time to keep the code malleable
+- Budget Owners: say yes to unit testing, refactoring
+- Budget Owners: say yes to learning time to get better at ⬆
+
+---
+
+
+# What Now?
+
+- Devs: take time to understand the code 
+- Devs: take time to keep the code malleable
+- Budget Owners: say yes to unit testing, refactoring
+- Budget Owners: say yes to learning time to get better at ⬆
+- Everyone: talk to each other often
+
+---
+
+
+# What Now?
+
+- Devs: take time to understand the code 
+- Devs: take time to keep the code malleable
+- Budget Owners: say yes to unit testing, refactoring
+- Budget Owners: say yes to learning time to get better at ⬆
+- Everyone: talk to each other often
+    - Like, just hang out and stuff, you know?
+
+---
+
+
+# Or Else?
+
+If you don't want to invest in malleable code, embrace
+
+
+---
+
+
+# Or Else?
+
+If you don't want to invest in malleable code, embrace
+
+- big design up front
+
+---
+
+
+# Or Else?
+
+If you don't want to invest in malleable code, embrace
+
+- big design up front
+- hockey stick status reports
+
+---
+
+
+# Or Else?
+
+If you don't want to invest in malleable code, embrace
+
+- big design up front
+- hockey stick status reports
+- stressed stakeholders
+
+---
+
+
+# Or Else?
+
+If you don't want to invest in malleable code, embrace
+
+- big design up front
+- hockey stick status reports
+- stressed stakeholders
+- confused customers
+
+---
+
+
+# Business Tradeoff
+
+
+---
+
+
+# Business Tradeoff
+
+- Invest in architecture-product fit through iterative development
+
+---
+
+
+# Business Tradeoff
+
+- Invest in architecture-product fit through iterative development
+    - dev skills for malleable code, relationships between eng/product
+
+---
+
+
+# Business Tradeoff
+
+- Invest in architecture-product fit through iterative development
+    - dev skills for malleable code, relationships between eng/product
+    - benefit: predictable delivery, happier customers & sales
+
+---
+
+
+# Business Tradeoff
+
+- Invest in architecture-product fit through iterative development
+    - dev skills for malleable code, relationships between eng/product
+    - benefit: predictable delivery, happier customers & sales
+    - downside: $$$
+
+---
+
+
+# Business Tradeoff
+
+- Invest in architecture-product fit through iterative development
+    - dev skills for malleable code, relationships between eng/product
+    - benefit: predictable delivery, happier customers & sales
+    - downside: $$$
+- Aim for architecture-product fit through big design up front
+
+---
+
+
+# Business Tradeoff
+
+- Invest in architecture-product fit through iterative development
+    - dev skills for malleable code, relationships between eng/product
+    - benefit: predictable delivery, happier customers & sales
+    - downside: $$$
+- Aim for architecture-product fit through big design up front
+    - benefit: no need to learn dev skills for malleable code, OK to keep silos
+
+---
+
+
+# Business Tradeoff
+
+- Invest in architecture-product fit through iterative development
+    - dev skills for malleable code, relationships between eng/product
+    - benefit: predictable delivery, happier customers & sales
+    - downside: $$$
+- Aim for architecture-product fit through big design up front
+    - benefit: no need to learn dev skills for malleable code, OK to keep silos
+    - cost: BDUF is expensive and often wrong ($$$)
+
+---
+
+
+# Business Tradeoff
+
+- Invest in architecture-product fit through iterative development
+    - dev skills for malleable code, relationships between eng/product
+    - benefit: predictable delivery, happier customers & sales
+    - downside: $$$
+- Aim for architecture-product fit through big design up front
+    - benefit: no need to learn dev skills for malleable code, OK to keep silos
+    - cost: BDUF is expensive and often wrong ($$$)
+    - cost: hockey stick status reports, stress, waste ($$$)
+
+---
+
+
+# Business Tradeoff
+
+
+---
+
+
+# Business Tradeoff
+
+- Invest in architecture-product fit through iterative development
+
+---
+
+
+# Business Tradeoff
+
+- Invest in architecture-product fit through iterative development
+    - people learn, talk to each other
+
+---
+
+
+# Business Tradeoff
+
+- Invest in architecture-product fit through iterative development
+    - people learn, talk to each other
+    - <span>$$$</span>
+
+---
+
+
+# Business Tradeoff
+
+- Invest in architecture-product fit through iterative development
+    - people learn, talk to each other
+    - <span>$$$</span>
+- Aim for architecture-product fit through big design up front
+
+---
+
+
+# Business Tradeoff
+
+- Invest in architecture-product fit through iterative development
+    - people learn, talk to each other
+    - <span>$$$</span>
+- Aim for architecture-product fit through big design up front
+    - stress and waste
+
+---
+
+
+# Business Tradeoff
+
+- Invest in architecture-product fit through iterative development
+    - people learn, talk to each other
+    - <span>$$$</span>
+- Aim for architecture-product fit through big design up front
+    - stress and waste
+    - <span>$$$</span>
+
+---
+
+
+# Business Tradeoff
+
+
+---
+
+
+# Business Tradeoff
+
+- Invest in architecture-product fit through iterative development
+
+---
+
+
+# Business Tradeoff
+
+- Invest in architecture-product fit through iterative development
+    - remember to account for the learning cost
+
+---
+
+
+# Business Tradeoff
+
+- Invest in architecture-product fit through iterative development
+    - remember to account for the learning cost
+- Aim for architecture-product fit through big design up front
+
+---
+
+
+# Business Tradeoff
+
+- Invest in architecture-product fit through iterative development
+    - remember to account for the learning cost
+- Aim for architecture-product fit through big design up front
+    - it's been half a century, is BDUF working for anyone?
+
+---
+
+
+# Business Tradeoff
+
+
+---
+
+
+# Business Tradeoff
+
+- Invest in architecture-product fit through iterative development
+
+---
+
+
+# Business Tradeoff
+
+- Invest in architecture-product fit through iterative development
+    - remember to account for the business value of flexibility
+
+---
+
+
+# Business Tradeoff
+
+- Invest in architecture-product fit through iterative development
+    - remember to account for the business value of flexibility
+- Aim for architecture-product fit through big design up front
+
+---
+
+
+# Business Tradeoff
+
+- Invest in architecture-product fit through iterative development
+    - remember to account for the business value of flexibility
+- Aim for architecture-product fit through big design up front
+    - if you don't want to rock the boat, BDUF feels safer
+
+---
+
+
+![bg center](./images/tradeoffs.gif)
+
+
+---
+
+
+If you want to explore the iterative approach,  
+Here are some retro templates
+
+![bg right ](./images/good-fit.jpeg)
+
+
+---
+
+
+# Communication Retro
+## An idea for a one-off team retro
+
+
+---
+
+
+# Communication Retro
+## An idea for a one-off team retro
+
+- "what devs knew and product didn't"
+
+---
+
+
+# Communication Retro
+## An idea for a one-off team retro
+
+- "what devs knew and product didn't"
+- "what product knew and devs didn't"
+
+---
+
+
+# Communication Retro
+## An idea for a one-off team retro
+
+- "what devs knew and product didn't"
+- "what product knew and devs didn't"
+- "stuff we built that we didn't need"
+
+---
+
+
+# Communication Retro
+## An idea for a one-off team retro
+
+- "what devs knew and product didn't"
+- "what product knew and devs didn't"
+- "stuff we built that we didn't need"
+- "stuff we needed that we didn't build"
+
+---
+
+
+# Communication Retro
+## An idea for a one-off team retro
+
+Possible action items
+
+
+---
+
+
+# Communication Retro
+## An idea for a one-off team retro
+
+Possible action items
+
+- specific conversations to be had
+
+---
+
+
+# Communication Retro
+## An idea for a one-off team retro
+
+Possible action items
+
+- specific conversations to be had
+    - "Sally and Bob should chat about X"
+
+---
+
+
+# Communication Retro
+## An idea for a one-off team retro
+
+Possible action items
+
+- specific conversations to be had
+    - "Sally and Bob should chat about X"
+- process experiments
+
+---
+
+
+# Communication Retro
+## An idea for a one-off team retro
+
+Possible action items
+
+- specific conversations to be had
+    - "Sally and Bob should chat about X"
+- process experiments
+    - "Next project kickoff, let's try a 2D backlog. Andy's going to facilitate."
+
+---
+
+
+# Communication Retro
+## An idea for a one-off team retro
+
+Possible action items
+
+- specific conversations to be had
+    - "Sally and Bob should chat about X"
+- process experiments
+    - "Next project kickoff, let's try a 2D backlog. Andy's going to facilitate."
+- what else??
+
+---
+
+
+# Communication Retro
+## An idea for a one-off team retro
+
+Possible action items
+
+- specific conversations to be had
+    - "Sally and Bob should chat about X"
+- process experiments
+    - "Next project kickoff, let's try a 2D backlog. Andy's going to facilitate."
+- what else??
+    - (have a retro to find out 🙂)
+
+---
+
+
+# Code Malleability Retro
+## An idea for a one-off team retro
+
+
+---
+
+
+# Code Malleability Retro
+## An idea for a one-off team retro
+
+- "malleable: code that was easy to change"
+
+---
+
+
+# Code Malleability Retro
+## An idea for a one-off team retro
+
+- "malleable: code that was easy to change"
+- "ossified: code that was hard to change"
+
+---
+
+
+# Code Malleability Retro
+## An idea for a one-off team retro
+
+- "malleable: code that was easy to change"
+- "ossified: code that was hard to change"
+- "refactored: we learned X, then we changed Y"
+
+---
+
+
+# Code Malleability Retro
+## An idea for a one-off team retro
+
+- "malleable: code that was easy to change"
+- "ossified: code that was hard to change"
+- "refactored: we learned X, then we changed Y"
+- "disappointed: code we used, wanted to change, but didn't"
+
+---
+
+
+# Code Malleability Retro
+## An idea for a one-off team retro
+
+Possible action items
+
+
+---
+
+
+# Code Malleability Retro
+## An idea for a one-off team retro
+
+Possible action items
+
+- cleanup: "we're often working on module X, which is ossified"
+
+---
+
+
+# Code Malleability Retro
+## An idea for a one-off team retro
+
+Possible action items
+
+- cleanup: "we're often working on module X, which is ossified"
+    - "Sue and Frank are going to take next week to clean it up, let them know if you have ideas"
+
+---
+
+
+# Code Malleability Retro
+## An idea for a one-off team retro
+
+Possible action items
+
+- cleanup: "we're often working on module X, which is ossified"
+    - "Sue and Frank are going to take next week to clean it up, let them know if you have ideas"
+- learning
+
+---
+
+
+# Code Malleability Retro
+## An idea for a one-off team retro
+
+Possible action items
+
+- cleanup: "we're often working on module X, which is ossified"
+    - "Sue and Frank are going to take next week to clean it up, let them know if you have ideas"
+- learning
+    - "We're going to take an hour each morning this month to practice TDD and refactoring"
+
+---
+
+
+# Code Malleability Retro
+## An idea for a one-off team retro
+
+Possible action items
+
+- cleanup: "we're often working on module X, which is ossified"
+    - "Sue and Frank are going to take next week to clean it up, let them know if you have ideas"
+- learning
+    - "We're going to take an hour each morning this month to practice TDD and refactoring"
+- understanding
+
+---
+
+
+# Code Malleability Retro
+## An idea for a one-off team retro
+
+Possible action items
+
+- cleanup: "we're often working on module X, which is ossified"
+    - "Sue and Frank are going to take next week to clean it up, let them know if you have ideas"
+- learning
+    - "We're going to take an hour each morning this month to practice TDD and refactoring"
+- understanding
+    - "This month, we're going to allocate time to review all the generated code before pushing it"
+
+---
+
+
+Quick aside to whoever's facilitating the retro:
+
+If there's no budget to take the actions, don't run the retros -- they'll just be frustrating
+
+
+---
+
+
+Aside from the aside:
+
+If there's no budget to take the actions, embrace the stress and hockey stick status updates of BDUF
 
 
 ---

@@ -4,7 +4,7 @@ from tools.collate.section import Section
 slides_to_tie_in_to_the_current_hype = (
     Section()
     .with_slide("""
-        # "But can't AI just...?"
+        # "Bro it's 2026"
     """)
     .with_animated_slide(
         title="""
@@ -64,6 +64,15 @@ slides_to_tie_in_to_the_current_hype = (
         - De-stress Stakeholders
         - Delight Customers
         - Reduce Waste
+        
+        ![bg right ](./images/poor-fit.jpeg)
+    """)
+    .with_slide("""
+        # Find Architecture-Product Fit
+        
+        - Happy Stakeholders
+        - Happy Customers
+        - Happy Devs
         
         ![bg right ](./images/poor-fit.jpeg)
     """)
