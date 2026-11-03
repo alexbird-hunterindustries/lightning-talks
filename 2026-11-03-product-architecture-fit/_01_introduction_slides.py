@@ -17,7 +17,6 @@ introduction_slides = (
     """, animate_each_line="""
         - cozy off-grid cabin
         - beautiful mountain view from the deck
-        - classic cedar siding
         - wood stove
 
     """)
