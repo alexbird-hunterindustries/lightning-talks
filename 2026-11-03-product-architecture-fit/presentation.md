@@ -130,18 +130,6 @@ h2:has(+ h1) {
 
 - cozy off-grid cabin
 - beautiful mountain view from the deck
-- classic cedar siding
-
----
-
-
-# For Sale: Cabin In The Woods
-
-![bg right ](./images/poor-fit.jpeg)
-
-- cozy off-grid cabin
-- beautiful mountain view from the deck
-- classic cedar siding
 - wood stove
 
 ---
@@ -2072,6 +2060,27 @@ If there's no budget to take the actions, embrace the stress and hockey stick st
 - Do just enough infra work to build the features
 - Invest in malleable code
 - Happy stakeholders, happy customers, happy devs!
+
+---
+
+
+# Thanks for Having Me!
+
+Alex Bird  
+Distinguished Software Engineer  
+Hunter Industries  
+
+[mstdn.ca/@alexanderbird](https://mstdn.ca/@alexanderbird)  
+[alexanderbird.software](https://alexanderbird.software)  
+
+![bg right](./images/alexanderbird.jpg)
+
+
+---
+
+
+![bg fit](./images/feedback-email.png)
+
 
 ---
 
