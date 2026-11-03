@@ -1449,15 +1449,49 @@ Big scale data from API to db and back
 
 ---
 
-If you can't change the code easily, iterative development sucks
+
+# Prerequisite: malleable code
+
 
 ---
 
-example about YAGNI &mdash; feature flagging hardcoded b/c it was good enough
+
+# Prerequisite: malleable code
+
+- Refactoring
 
 ---
 
-example about YAGNI &mdash; API algorithm hardcoded b/c it was good enough for now
+
+# Prerequisite: malleable code
+
+- Refactoring
+- Unit Testing
+
+---
+
+
+# Prerequisite: malleable code
+
+- Refactoring
+- Unit Testing
+- Understanding the code
+
+---
+
+
+# Example: Hardcoded Feature Flagging
+
+So we could release the feature
+
+
+---
+
+
+# Example: Hardcoded Algorithm
+
+So we could share the API
+
 
 ---
 
@@ -1531,6 +1565,14 @@ example about YAGNI &mdash; API algorithm hardcoded b/c it was good enough for n
 - Budget Owners: say yes to learning time to get better at ⬆
 - Everyone: talk to each other often
     - Like, just hang out and stuff, you know?
+
+---
+
+
+This cabin looks like the team didn't talk to each other
+
+![bg right ](./images/poor-fit.jpeg)
+
 
 ---
 
