@@ -1,4 +1,5 @@
 from tools.collate.section import Section
+from tools.collate.formatting import bottom_image
 
 backlog_shapes = (
     Section()
@@ -23,24 +24,79 @@ backlog_shapes = (
         '- No cohesive product until the end'
     ])
     .with_slide("""
+        # Book: User Story Mapping
+        ## Discover the Whole Story, Build the Right Product
+        
+        *By* Jeff Patton
+        ![bg right fit](./images/user-story-mapping-book.jpg)
+    """)
+    .with_auto_animated_slide("""
         # 2D backlog
         
+        ![bg right fit](./images/user-story-mapping-book.jpg)
+    """, animate_each_line="""
         - Horizontal Axis: Customer Journey
-        - Vertical Axis: Priority
+        - Vertical Axis: Priority or sequence
     """)
-    .with_slide("""
+    .with_slide(f"""
         # User Story Map
+        ## For a note-taking web app
         
-        TODO: example user story map
-        
-        talk about journey left right
-        
-        rank top bottom
+        {bottom_image("./images/story-map-unsorted.png")}
     """)
     .with_auto_animated_slide("# How to Rank", animate_each_line="""
         - Product Owners and Devs must collaborate
         - What is possible to build this week?
         - What is worth building this week?
         - What do we need to stitch that together into a complete user journey?
+    """)
+    .with_slide(f"""
+        # User Story Map
+        ## Slice 1
+        
+        {bottom_image("./images/story-map-slice-1.png")}
+    """)
+    .with_slide(f"""
+        # User Story Map
+        ## Slice 2
+        
+        {bottom_image("./images/story-map-slice-2a.png")}
+    """)
+    .with_slide(f"""
+        # User Story Map
+        ## Slice 2 (Alternative)
+        
+        {bottom_image("./images/story-map-slice-2b.png")}
+    """)
+    .with_slide(f"""
+        # User Story Map
+        ## Slice 3
+        
+        {bottom_image("./images/story-map-slice-3.png")}
+    """)
+    .with_slide(f"""
+        # User Story Map
+        ## Slice 4: "backend work"
+        
+        {bottom_image("./images/story-map-slice-4.png")}
+    """)
+    .with_auto_animated_slide("""
+        # Find Architecture-Product Fit
+    """, animate_each_line="""
+        - Our 2D backlog puts features in user context
+        - We choose valuable features that give an excuse for infra
+        - We build just enough infra to build valuable features
+        - Delivered features earns trust
+        - We spend trust on "backend work" -- on infra work
+    """)
+    .with_slide("""
+        # Find Architecture-Product Fit
+        
+        - 2D backlog for context
+        - features as excuse for infra
+        - just enough infra for features
+        - features earn trust for infra 
+        
+        ![bg right ](./images/good-fit.jpeg)
     """)
 )

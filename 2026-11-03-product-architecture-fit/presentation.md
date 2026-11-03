@@ -71,6 +71,20 @@ h2:has(+ h1) {
 .deemphasis {
     color: gray;
 }
+
+.image-positioner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    img.bottom {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+}
 </style>
 <div class='title-page'>
 
@@ -768,22 +782,47 @@ That's what we're talking about today
 ---
 
 
-# 2D backlog
+# Book: User Story Mapping
+## Discover the Whole Story, Build the Right Product
 
-- Horizontal Axis: Customer Journey
-- Vertical Axis: Priority
+*By* Jeff Patton
+![bg right fit](./images/user-story-mapping-book.jpg)
 
 
 ---
 
 
+# 2D backlog
+
+![bg right fit](./images/user-story-mapping-book.jpg)
+
+
+---
+
+
+# 2D backlog
+
+![bg right fit](./images/user-story-mapping-book.jpg)
+
+- Horizontal Axis: Customer Journey
+
+---
+
+
+# 2D backlog
+
+![bg right fit](./images/user-story-mapping-book.jpg)
+
+- Horizontal Axis: Customer Journey
+- Vertical Axis: Priority or sequence
+
+---
+
+
 # User Story Map
+## For a note-taking web app
 
-TODO: example user story map
-
-talk about journey left right
-
-rank top bottom
+<div class='image-positioner'><img class='bottom' src='./images/story-map-unsorted.png'/></div>
 
 
 ---
@@ -815,6 +854,115 @@ rank top bottom
 - What is possible to build this week?
 - What is worth building this week?
 - What do we need to stitch that together into a complete user journey?
+
+---
+
+
+# User Story Map
+## Slice 1
+
+<div class='image-positioner'><img class='bottom' src='./images/story-map-slice-1.png'/></div>
+
+
+---
+
+
+# User Story Map
+## Slice 2
+
+<div class='image-positioner'><img class='bottom' src='./images/story-map-slice-2a.png'/></div>
+
+
+---
+
+
+# User Story Map
+## Slice 2 (Alternative)
+
+<div class='image-positioner'><img class='bottom' src='./images/story-map-slice-2b.png'/></div>
+
+
+---
+
+
+# User Story Map
+## Slice 3
+
+<div class='image-positioner'><img class='bottom' src='./images/story-map-slice-3.png'/></div>
+
+
+---
+
+
+# User Story Map
+## Slice 4: "backend work"
+
+<div class='image-positioner'><img class='bottom' src='./images/story-map-slice-4.png'/></div>
+
+
+---
+
+
+# Find Architecture-Product Fit
+
+
+---
+
+
+# Find Architecture-Product Fit
+
+- Our 2D backlog puts features in user context
+
+---
+
+
+# Find Architecture-Product Fit
+
+- Our 2D backlog puts features in user context
+- We choose valuable features that give an excuse for infra
+
+---
+
+
+# Find Architecture-Product Fit
+
+- Our 2D backlog puts features in user context
+- We choose valuable features that give an excuse for infra
+- We build just enough infra to build valuable features
+
+---
+
+
+# Find Architecture-Product Fit
+
+- Our 2D backlog puts features in user context
+- We choose valuable features that give an excuse for infra
+- We build just enough infra to build valuable features
+- Delivered features earns trust
+
+---
+
+
+# Find Architecture-Product Fit
+
+- Our 2D backlog puts features in user context
+- We choose valuable features that give an excuse for infra
+- We build just enough infra to build valuable features
+- Delivered features earns trust
+- We spend trust on "backend work" &mdash; on infra work
+
+---
+
+
+# Find Architecture-Product Fit
+
+- 2D backlog for context
+- features as excuse for infra
+- just enough infra for features
+- features earn trust for infra 
+
+![bg right ](./images/good-fit.jpeg)
+
 
 ---
 
