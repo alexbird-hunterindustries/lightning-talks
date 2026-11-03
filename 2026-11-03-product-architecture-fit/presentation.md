@@ -977,7 +977,7 @@ That's what we're talking about today
 ---
 
 
-# Build the features that drive the infra
+# Features as excuse for infra
 
 - devs say "we need a db"
 - play the simplest feature that needs db
@@ -987,7 +987,7 @@ That's what we're talking about today
 ---
 
 
-# Build the infra to support the feature
+# Just enough infra for the feature
 
 - product says "when we return to the page tomorrow, data is still there"
 - build the simplest infra to support the feature
@@ -997,19 +997,19 @@ That's what we're talking about today
 ---
 
 
-# Build the features that drive the infra
+# Features as excuse for infra
 
 - devs say "we need a db"
 - play the simplest feature that needs db
-- e.g. "when I browser from another device, data is still there"
+- e.g. "when I browse from another device, data is still there"
 
 
 ---
 
 
-# Build the infra to support the feature
+# Just enough infra for the feature
 
-- product says "when I browser from another device, data is still there"
+- product says "when I browse from another device, data is still there"
 - build the simplest infra to support the feature
 - e.g. basic db, no auth
 
@@ -1017,7 +1017,7 @@ That's what we're talking about today
 ---
 
 
-# Build the features that drive the infra
+# Features as excuse for infra
 
 - devs say "we need authentication"
 - play the simplest feature that needs db
@@ -1077,7 +1077,7 @@ That's what we're talking about today
 ---
 
 
-# Architecture-Product Fit
+#### Architecture-Product Fit
 
 Basically we just need to talk to each other
 
@@ -1087,6 +1087,56 @@ Basically we just need to talk to each other
 ---
 
 
+#### Architecture-Product Fit
+
+Basically we just need to talk to each other
+
+![bg right ](./images/good-fit.jpeg)
+
+- devs to respect PO's business strategy
+
+---
+
+
+#### Architecture-Product Fit
+
+Basically we just need to talk to each other
+
+![bg right ](./images/good-fit.jpeg)
+
+- devs to respect PO's business strategy
+- PO's to respect devs' technical advice
+
+---
+
+
+#### Architecture-Product Fit
+
+Basically we just need to talk to each other
+
+![bg right ](./images/good-fit.jpeg)
+
+- devs to respect PO's business strategy
+- PO's to respect devs' technical advice
+- make a plan together
+
+---
+
+
+#### Architecture-Product Fit
+
+Basically we just need to talk to each other
+
+![bg right ](./images/good-fit.jpeg)
+
+- devs to respect PO's business strategy
+- PO's to respect devs' technical advice
+- make a plan together
+- so we have stuff to show early on
+
+---
+
+
 # The Essence
 
 
@@ -1095,84 +1145,84 @@ Basically we just need to talk to each other
 
 # The Essence
 
- - Stakeholders and devs talk
+- Stakeholders and devs talk
 
 ---
 
 
 # The Essence
 
- - Stakeholders and devs talk
-    - marketing goals vs product constraints
+- Stakeholders and devs talk
+   - marketing/product goals vs technical constraints
 
 ---
 
 
 # The Essence
 
- - Stakeholders and devs talk
-    - marketing goals vs product constraints
-    - combined into a better plan
+- Stakeholders and devs talk
+   - marketing/product goals vs technical constraints
+   - combined into a better plan
 
 ---
 
 
 # The Essence
 
- - Stakeholders and devs talk
-    - marketing goals vs product constraints
-    - combined into a better plan
- - Build the features that drive the infrastructure
+- Stakeholders and devs talk
+   - marketing/product goals vs technical constraints
+   - combined into a better plan
+- Build the features that drive the infrastructure
 
 ---
 
 
 # The Essence
 
- - Stakeholders and devs talk
-    - marketing goals vs product constraints
-    - combined into a better plan
- - Build the features that drive the infrastructure
-    - Rejig the priorities for visual progress
+- Stakeholders and devs talk
+   - marketing/product goals vs technical constraints
+   - combined into a better plan
+- Build the features that drive the infrastructure
+   - Rejig the priorities for reportable progress
 
 ---
 
 
 # The Essence
 
- - Stakeholders and devs talk
-    - marketing goals vs product constraints
-    - combined into a better plan
- - Build the features that drive the infrastructure
-    - Rejig the priorities for visual progress
-        - (instead of the dreaded hockey stick)
+- Stakeholders and devs talk
+   - marketing/product goals vs technical constraints
+   - combined into a better plan
+- Build the features that drive the infrastructure
+   - Rejig the priorities for reportable progress
+       - (instead of the dreaded hockey stick)
 
 ---
 
 
 # The Essence
 
- - Stakeholders and devs talk
-    - marketing goals vs product constraints
-    - combined into a better plan
- - Build the features that drive the infrastructure
-    - Rejig the priorities for visual progress
-        - (instead of the dreaded hockey stick)
- - Build the infrastructure to support the features
+- Stakeholders and devs talk
+   - marketing/product goals vs technical constraints
+   - combined into a better plan
+- Build the features that drive the infrastructure
+   - Rejig the priorities for reportable progress
+       - (instead of the dreaded hockey stick)
+- Build the infrastructure to support the features
 
 ---
 
 
 # The Essence
 
- - Stakeholders and devs talk
-    - marketing goals vs product constraints
-    - combined into a better plan
- - Build the features that drive the infrastructure
-    - Rejig the priorities for visual progress
-        - (instead of the dreaded hockey stick)
- - Build the infrastructure to support the features
-    - Fake it at first
+- Stakeholders and devs talk
+   - marketing/product goals vs technical constraints
+   - combined into a better plan
+- Build the features that drive the infrastructure
+   - Rejig the priorities for reportable progress
+       - (instead of the dreaded hockey stick)
+- Build the infrastructure to support the features
+   - Fake it at first
 
 ---
 
@@ -1181,6 +1231,59 @@ Basically we just need to talk to each other
 
 - Yeah basically
 - This stuff still works!
+
+![bg right fit](./images/xp-explained.jpg)
+
+
+---
+
+
+# Wait isn't this just XP?
+
+
+---
+
+
+# Wait isn't this just XP?
+
+- Values: Communication, Simplicity, Feedback, Respect
+
+---
+
+
+# Wait isn't this just XP?
+
+- Values: Communication, Simplicity, Feedback, Respect
+- Principles: Baby Steps, Improvement
+
+---
+
+
+# Wait isn't this just XP?
+
+- Values: Communication, Simplicity, Feedback, Respect
+- Principles: Baby Steps, Improvement
+- Practices: Whole Team, Stories, Weekly Cycle
+
+---
+
+
+# Wait isn't this just XP?
+
+- Values: Communication, Simplicity, Feedback, Respect
+- Principles: Baby Steps, Improvement
+- Practices: Whole Team, Stories, Weekly Cycle
+- Practices: Incremental Design, Incremental Deployment, Negotiated Scope Contract
+
+---
+
+
+# Wait isn't this just XP?
+
+- Yeah basically
+- This stuff still works!
+
+![bg right fit](./images/xp-explained.jpg)
 
 
 ---
