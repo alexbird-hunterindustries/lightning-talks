@@ -73,8 +73,11 @@ introduction_slides = (
         ![bg right](./images/alexanderbird.jpg)
     """)
     .with_slide("""
+        ![bg fit](./images/feedback-email.png)
+    """)
+    .with_slide("""
         ## So what happened?
-        ![bg right ](./images/poor-fit.jpeg)
+        ![bg right](./images/poor-fit.jpeg)
     """)
     .with_slide(titled_image("Product Owner's Feature List", "./images/PO-feature-list.jpg"))
     .with_slide(titled_image("Product Owner's Expected Burn-Up", "./images/PO-burn-up-dream.png"))

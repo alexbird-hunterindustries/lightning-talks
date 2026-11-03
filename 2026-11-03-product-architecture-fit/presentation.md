@@ -305,8 +305,14 @@ Hunter Industries
 ---
 
 
+![bg fit](./images/feedback-email.png)
+
+
+---
+
+
 ## So what happened?
-![bg right ](./images/poor-fit.jpeg)
+![bg right](./images/poor-fit.jpeg)
 
 
 ---
