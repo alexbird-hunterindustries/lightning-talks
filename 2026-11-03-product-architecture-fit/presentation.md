@@ -48,7 +48,13 @@ breaks: off
     grid-template-columns: 1fr 1fr;
 }
 
-h1 + h2 {
+h1:first-child + h2 {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 22pt;
+}
+
+h2:first-child + h3 {
     font-weight: normal;
     font-style: italic;
     font-size: 22pt;
@@ -1529,26 +1535,26 @@ example about YAGNI &mdash; API algorithm hardcoded b/c it was good enough for n
 ---
 
 
-# Or Else?
+# What if we don't?
 
-If you don't want to invest in malleable code, embrace
+If you don't want to invest in malleable code, embrace:
 
 
 ---
 
 
-# Or Else?
+# What if we don't?
 
-If you don't want to invest in malleable code, embrace
+If you don't want to invest in malleable code, embrace:
 
 - big design up front
 
 ---
 
 
-# Or Else?
+# What if we don't?
 
-If you don't want to invest in malleable code, embrace
+If you don't want to invest in malleable code, embrace:
 
 - big design up front
 - hockey stick status reports
@@ -1556,9 +1562,9 @@ If you don't want to invest in malleable code, embrace
 ---
 
 
-# Or Else?
+# What if we don't?
 
-If you don't want to invest in malleable code, embrace
+If you don't want to invest in malleable code, embrace:
 
 - big design up front
 - hockey stick status reports
@@ -1567,9 +1573,9 @@ If you don't want to invest in malleable code, embrace
 ---
 
 
-# Or Else?
+# What if we don't?
 
-If you don't want to invest in malleable code, embrace
+If you don't want to invest in malleable code, embrace:
 
 - big design up front
 - hockey stick status reports
@@ -1579,235 +1585,167 @@ If you don't want to invest in malleable code, embrace
 ---
 
 
-# Business Tradeoff
+## Two paths to architecture-product fit
+### Costs
+
+- Iterative development
+    - <span></span>
+    - <span></span>
+- Big design up front
+    - <span></span>
+    - <span></span>
 
 
 ---
 
 
-# Business Tradeoff
+## Two paths to architecture-product fit
+### Costs
 
-- Invest in architecture-product fit through iterative development
-
----
-
-
-# Business Tradeoff
-
-- Invest in architecture-product fit through iterative development
-    - dev skills for malleable code, relationships between eng/product
-
----
-
-
-# Business Tradeoff
-
-- Invest in architecture-product fit through iterative development
-    - dev skills for malleable code, relationships between eng/product
-    - benefit: predictable delivery, happier customers & sales
-
----
-
-
-# Business Tradeoff
-
-- Invest in architecture-product fit through iterative development
-    - dev skills for malleable code, relationships between eng/product
-    - benefit: predictable delivery, happier customers & sales
-    - downside: $$$
-
----
-
-
-# Business Tradeoff
-
-- Invest in architecture-product fit through iterative development
-    - dev skills for malleable code, relationships between eng/product
-    - benefit: predictable delivery, happier customers & sales
-    - downside: $$$
-- Aim for architecture-product fit through big design up front
-
----
-
-
-# Business Tradeoff
-
-- Invest in architecture-product fit through iterative development
-    - dev skills for malleable code, relationships between eng/product
-    - benefit: predictable delivery, happier customers & sales
-    - downside: $$$
-- Aim for architecture-product fit through big design up front
-    - benefit: no need to learn dev skills for malleable code, OK to keep silos
-
----
-
-
-# Business Tradeoff
-
-- Invest in architecture-product fit through iterative development
-    - dev skills for malleable code, relationships between eng/product
-    - benefit: predictable delivery, happier customers & sales
-    - downside: $$$
-- Aim for architecture-product fit through big design up front
-    - benefit: no need to learn dev skills for malleable code, OK to keep silos
-    - cost: BDUF is expensive and often wrong ($$$)
-
----
-
-
-# Business Tradeoff
-
-- Invest in architecture-product fit through iterative development
-    - dev skills for malleable code, relationships between eng/product
-    - benefit: predictable delivery, happier customers & sales
-    - downside: $$$
-- Aim for architecture-product fit through big design up front
-    - benefit: no need to learn dev skills for malleable code, OK to keep silos
-    - cost: BDUF is expensive and often wrong ($$$)
-    - cost: hockey stick status reports, stress, waste ($$$)
-
----
-
-
-# Business Tradeoff
+- Iterative development
+    - cost: dev skills for malleable code
+    - cost: fostering relationships between eng/product
+- Big design up front
+    - <span></span>
+    - <span></span>
 
 
 ---
 
 
-# Business Tradeoff
+## Two paths to architecture-product fit
+### Costs
 
-- Invest in architecture-product fit through iterative development
-
----
-
-
-# Business Tradeoff
-
-- Invest in architecture-product fit through iterative development
-    - people learn, talk to each other
-
----
-
-
-# Business Tradeoff
-
-- Invest in architecture-product fit through iterative development
-    - people learn, talk to each other
-    - <span>$$$</span>
-
----
-
-
-# Business Tradeoff
-
-- Invest in architecture-product fit through iterative development
-    - people learn, talk to each other
-    - <span>$$$</span>
-- Aim for architecture-product fit through big design up front
-
----
-
-
-# Business Tradeoff
-
-- Invest in architecture-product fit through iterative development
-    - people learn, talk to each other
-    - <span>$$$</span>
-- Aim for architecture-product fit through big design up front
-    - stress and waste
-
----
-
-
-# Business Tradeoff
-
-- Invest in architecture-product fit through iterative development
-    - people learn, talk to each other
-    - <span>$$$</span>
-- Aim for architecture-product fit through big design up front
-    - stress and waste
-    - <span>$$$</span>
-
----
-
-
-# Business Tradeoff
+- Iterative development
+    - cost: dev skills for malleable code
+    - cost: fostering relationships between eng/product
+- Big design up front
+    - if you get everything correct from the start, it's cheaper
+    - cost: when do we ever get everything correct from the start?
 
 
 ---
 
 
-# Business Tradeoff
+## Two paths to architecture-product fit
+### Benefits
 
-- Invest in architecture-product fit through iterative development
-
----
-
-
-# Business Tradeoff
-
-- Invest in architecture-product fit through iterative development
-    - remember to account for the learning cost
-
----
-
-
-# Business Tradeoff
-
-- Invest in architecture-product fit through iterative development
-    - remember to account for the learning cost
-- Aim for architecture-product fit through big design up front
-
----
-
-
-# Business Tradeoff
-
-- Invest in architecture-product fit through iterative development
-    - remember to account for the learning cost
-- Aim for architecture-product fit through big design up front
-    - it's been half a century, is BDUF working for anyone?
-
----
-
-
-# Business Tradeoff
+- Iterative development
+    - <span></span>
+    - <span></span>
+    - <span></span>
+- Big design up front
+    - <span></span>
+    - <span></span>
 
 
 ---
 
 
-# Business Tradeoff
+## Two paths to architecture-product fit
+### Benefits
 
-- Invest in architecture-product fit through iterative development
+- Iterative development
+    - benefit: predictable delivery
+    - benefit: lower stress (linear progress vs hockey stick)
+    - benefit: can respond quickly to change in business landscape
+- Big design up front
+    - <span></span>
+    - <span></span>
+
 
 ---
 
 
-# Business Tradeoff
+## Two paths to architecture-product fit
+### Benefits
 
-- Invest in architecture-product fit through iterative development
-    - remember to account for the business value of flexibility
+- Iterative development
+    - benefit: predictable delivery
+    - benefit: lower stress (linear progress vs hockey stick)
+    - benefit: can respond quickly to change in business landscape
+- Big design up front
+    - benefit: doesn't rock the boat
+    - benefit: feels safer
+
 
 ---
 
 
-# Business Tradeoff
+# Business tradeoff
 
-- Invest in architecture-product fit through iterative development
-    - remember to account for the business value of flexibility
-- Aim for architecture-product fit through big design up front
+- Iterative development
+    - <span></span>
+    - <span></span>
+- Big design up front
+    - <span></span>
+    - <span></span>
+
 
 ---
 
 
-# Business Tradeoff
+# Business tradeoff
 
-- Invest in architecture-product fit through iterative development
-    - remember to account for the business value of flexibility
-- Aim for architecture-product fit through big design up front
-    - if you don't want to rock the boat, BDUF feels safer
+- Iterative development
+    - pay for learning and collaboration
+    - earn from predictable, reliable, flexible delivery
+- Big design up front
+    - <span></span>
+    - <span></span>
+
+
+---
+
+
+# Business tradeoff
+
+- Iterative development
+    - pay for learning and collaboration
+    - earn from predictable, reliable, flexible delivery
+- Big design up front
+    - pay for rework when the plan goes wrong
+    - enjoy the tradition and simplicity of silos and handoffs
+
+
+---
+
+
+# Personal tradeoff
+
+- Iterative development
+    - <span></span>
+    - <span></span>
+- Big design up front
+    - <span></span>
+    - <span></span>
+
+
+---
+
+
+# Personal tradeoff
+
+- Iterative development
+    - rock the boat
+    - more satisfying work outcomes
+- Big design up front
+    - <span></span>
+    - <span></span>
+
+
+---
+
+
+# Personal tradeoff
+
+- Iterative development
+    - rock the boat
+    - more satisfying work outcomes
+- Big design up front
+    - a sense of control
+    - no need to be a change agent
+
 
 ---
 
@@ -1818,8 +1756,17 @@ If you don't want to invest in malleable code, embrace
 ---
 
 
-If you want to explore the iterative approach,  
-Here are some retro templates
+## If you want an iterative approach
+
+![bg right ](./images/good-fit.jpeg)
+
+
+---
+
+
+## Here are some retro templates
+
+to try 2D backlogs and collaborative, iterative dev
 
 ![bg right ](./images/good-fit.jpeg)
 
@@ -2098,17 +2045,12 @@ Possible action items
 ---
 
 
-Quick aside to whoever's facilitating the retro:
+# Quick aside
 
-If there's no budget to take the actions, don't run the retros &mdash; they'll just be frustrating
-
-
----
-
-
-Aside from the aside:
-
-If there's no budget to take the actions, embrace the stress and hockey stick status updates of BDUF
+- No budget for retro actions?
+    - Skip the retro
+- No budget for learning to make malleable code and collaborate?
+    - Embrace Big Design Up Front
 
 
 ---
