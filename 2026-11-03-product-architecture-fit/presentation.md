@@ -1055,7 +1055,7 @@ Here are some patterns for getting a slice of a feature out before having all th
 
 ---
 
-Fake the API -- build frontend-only
+Fake the API &mdash; build frontend-only
 
 ---
 
@@ -1085,15 +1085,15 @@ Big scale data from API to db and back
 
 ---
 
-something about malleable code
+If you can't change the code easily, iterative development sucks
 
 ---
 
-example about YAGNI -- feature flagging hardcoded
+example about YAGNI &mdash; feature flagging hardcoded b/c it was good enough
 
 ---
 
-example about YAGNI -- API algorithm hardcoded
+example about YAGNI &mdash; API algorithm hardcoded b/c it was good enough for now
 
 ---
 
@@ -1657,7 +1657,7 @@ Possible action items
 
 Possible action items
 
-- cleanup: "we're often working on module X, which is ossified"
+- cleanup:
 
 ---
 
@@ -1667,7 +1667,19 @@ Possible action items
 
 Possible action items
 
-- cleanup: "we're often working on module X, which is ossified"
+- cleanup:
+    - "we're often working on module X, which is ossified"
+
+---
+
+
+# Code Malleability Retro
+## An idea for a one-off team retro
+
+Possible action items
+
+- cleanup:
+    - "we're often working on module X, which is ossified"
     - "Sue and Frank are going to take next week to clean it up, let them know if you have ideas"
 
 ---
@@ -1678,8 +1690,15 @@ Possible action items
 
 Possible action items
 
-- cleanup: "we're often working on module X, which is ossified"
-    - "Sue and Frank are going to take next week to clean it up, let them know if you have ideas"
+
+---
+
+
+# Code Malleability Retro
+## An idea for a one-off team retro
+
+Possible action items
+
 - learning
 
 ---
@@ -1690,8 +1709,6 @@ Possible action items
 
 Possible action items
 
-- cleanup: "we're often working on module X, which is ossified"
-    - "Sue and Frank are going to take next week to clean it up, let them know if you have ideas"
 - learning
     - "We're going to take an hour each morning this month to practice TDD and refactoring"
 
@@ -1703,8 +1720,6 @@ Possible action items
 
 Possible action items
 
-- cleanup: "we're often working on module X, which is ossified"
-    - "Sue and Frank are going to take next week to clean it up, let them know if you have ideas"
 - learning
     - "We're going to take an hour each morning this month to practice TDD and refactoring"
 - understanding
@@ -1717,8 +1732,6 @@ Possible action items
 
 Possible action items
 
-- cleanup: "we're often working on module X, which is ossified"
-    - "Sue and Frank are going to take next week to clean it up, let them know if you have ideas"
 - learning
     - "We're going to take an hour each morning this month to practice TDD and refactoring"
 - understanding
@@ -1729,7 +1742,7 @@ Possible action items
 
 Quick aside to whoever's facilitating the retro:
 
-If there's no budget to take the actions, don't run the retros -- they'll just be frustrating
+If there's no budget to take the actions, don't run the retros &mdash; they'll just be frustrating
 
 
 ---
@@ -1739,6 +1752,69 @@ Aside from the aside:
 
 If there's no budget to take the actions, embrace the stress and hockey stick status updates of BDUF
 
+
+---
+
+
+# Final Thoughts
+
+![bg right ](./images/good-fit.jpeg)
+
+
+---
+
+
+# Final Thoughts
+
+![bg right ](./images/good-fit.jpeg)
+
+- Rank your tasks with dev and product together
+
+---
+
+
+# Final Thoughts
+
+![bg right ](./images/good-fit.jpeg)
+
+- Rank your tasks with dev and product together
+- Build features that give an excuse to do infra work
+
+---
+
+
+# Final Thoughts
+
+![bg right ](./images/good-fit.jpeg)
+
+- Rank your tasks with dev and product together
+- Build features that give an excuse to do infra work
+- Do just enough infra work to build the features
+
+---
+
+
+# Final Thoughts
+
+![bg right ](./images/good-fit.jpeg)
+
+- Rank your tasks with dev and product together
+- Build features that give an excuse to do infra work
+- Do just enough infra work to build the features
+- Invest in malleable code
+
+---
+
+
+# Final Thoughts
+
+![bg right ](./images/good-fit.jpeg)
+
+- Rank your tasks with dev and product together
+- Build features that give an excuse to do infra work
+- Do just enough infra work to build the features
+- Invest in malleable code
+- Happy stakeholders, happy customers, happy devs!
 
 ---
 

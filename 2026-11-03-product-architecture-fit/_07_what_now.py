@@ -106,8 +106,16 @@ what_now = (
         
         Possible action items
     """, animate_each_line="""
-        - cleanup: "we're often working on module X, which is ossified"
+        - cleanup:
+            - "we're often working on module X, which is ossified"
             - "Sue and Frank are going to take next week to clean it up, let them know if you have ideas"
+    """)
+    .with_auto_animated_slide("""
+        # Code Malleability Retro
+        ## An idea for a one-off team retro
+        
+        Possible action items
+    """, animate_each_line="""
         - learning
             - "We're going to take an hour each morning this month to practice TDD and refactoring"
         - understanding

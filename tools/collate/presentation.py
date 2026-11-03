@@ -145,6 +145,11 @@ class Presentation:
         rendering_context = RenderingContext(
             index=self.index_builder.build()
         )
-        markdown = join_slides([textwrap.dedent(x.render(rendering_context)) for x in self.slides])
+        markdown = self._apply_replacements(join_slides([textwrap.dedent(x.render(rendering_context)) for x in self.slides]))
         target_path = directory / file_name
         target_path.write_text(markdown, encoding='utf-8')
+
+    @staticmethod
+    def _apply_replacements(markdown: str):
+        return markdown \
+            .replace(" -- ", " &mdash; ")

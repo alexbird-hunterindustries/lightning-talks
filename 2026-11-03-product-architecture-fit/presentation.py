@@ -8,6 +8,7 @@ from _04_architecture_informed_2d_backlogs import architecture_informed_2d_backl
 from _05_feature_architecture_hors_doeuvres import feature_architecture_hors_doeuvres
 from _06_pitfalls import pitfalls
 from _07_what_now import what_now
+from _08_outro import outro
 
 current_directory = Path(__file__).resolve().parent
 
@@ -28,18 +29,7 @@ presentation = (
     .with_section("Feature-Architecture Hors D'oeuvres", feature_architecture_hors_doeuvres)
     .with_section("Pitfalls", pitfalls)
     .with_section("Things to Try This Week", what_now)
-    .with_slide("""
-        # Thanks for Having Me!
-        
-        Alex Bird  
-        Distinguished Software Engineer  
-        Hunter Industries  
-           
-        [mstdn.ca/@alexanderbird](https://mstdn.ca/@alexanderbird)  
-        [alexanderbird.software](https://alexanderbird.software)  
-        
-        ![bg right](./images/alexanderbird.jpg)
-    """)
+    .with_slides(outro)
 )
 
 
