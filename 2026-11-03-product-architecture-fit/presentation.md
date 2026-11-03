@@ -948,15 +948,128 @@ That's what we're talking about today
 ---
 
 
-# Find Architecture-Product Fit
+# User Story Map
+## Status Reporting
 
+<div class='image-positioner'><img class='bottom' src='./images/story-map-with-status-info.png'/></div>
+
+
+---
+
+
+# Status Reporting
+
+
+---
+
+
+# Status Reporting
+
+- Whenever possible, the "work ticket" has a feature name
+
+---
+
+
+# Status Reporting
+
+- Whenever possible, the "work ticket" has a feature name
+- We do the infra work as part of the feature ticket
+
+---
+
+
+# Status Reporting
+
+- Whenever possible, the "work ticket" has a feature name
+- We do the infra work as part of the feature ticket
+- Benefit: devs have feature context for infra (avoid giant concrete pad)
+
+---
+
+
+# Status Reporting
+
+- Whenever possible, the "work ticket" has a feature name
+- We do the infra work as part of the feature ticket
+- Benefit: devs have feature context for infra (avoid giant concrete pad)
+- Benefit: we report progress on features (even if it's lots of infra)
+
+---
+
+
+### Find Architecture-Product Fit
+
+![bg right ](./images/good-fit.jpeg)
+
+
+---
+
+
+### Find Architecture-Product Fit
+
+![bg right ](./images/good-fit.jpeg)
+
+- Whenever possible, the "work ticket" has a feature name
+
+---
+
+
+### Find Architecture-Product Fit
+
+![bg right ](./images/good-fit.jpeg)
+
+- Whenever possible, the "work ticket" has a feature name
+- 2D backlog for context
+
+---
+
+
+### Find Architecture-Product Fit
+
+![bg right ](./images/good-fit.jpeg)
+
+- Whenever possible, the "work ticket" has a feature name
+- 2D backlog for context
+- features as excuse for infra
+
+---
+
+
+### Find Architecture-Product Fit
+
+![bg right ](./images/good-fit.jpeg)
+
+- Whenever possible, the "work ticket" has a feature name
+- 2D backlog for context
+- features as excuse for infra
+- just enough infra for features
+
+---
+
+
+### Find Architecture-Product Fit
+
+![bg right ](./images/good-fit.jpeg)
+
+- Whenever possible, the "work ticket" has a feature name
 - 2D backlog for context
 - features as excuse for infra
 - just enough infra for features
 - features earn trust for infra 
 
+---
+
+
+### Find Architecture-Product Fit
+
 ![bg right ](./images/good-fit.jpeg)
 
+- Whenever possible, the "work ticket" has a feature name
+- 2D backlog for context
+- features as excuse for infra
+- just enough infra for features
+- features earn trust for infra 
+- report infra by the feature it enables
 
 ---
 

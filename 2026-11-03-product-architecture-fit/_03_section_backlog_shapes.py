@@ -89,14 +89,30 @@ backlog_shapes = (
         - Delivered features earns trust
         - We spend trust on "backend work" -- on infra work
     """)
-    .with_slide("""
-        # Find Architecture-Product Fit
+    .with_slide(f"""
+        # User Story Map
+        ## Status Reporting
         
+        {bottom_image("./images/story-map-with-status-info.png")}
+    """)
+    .with_auto_animated_slide("""
+        # Status Reporting
+    """, animate_each_line="""
+        - Whenever possible, the "work ticket" has a feature name
+        - We do the infra work as part of the feature ticket
+        - Benefit: devs have feature context for infra (avoid giant concrete pad)
+        - Benefit: we report progress on features (even if it's lots of infra)
+    """)
+    .with_auto_animated_slide("""
+        ### Find Architecture-Product Fit
+        
+        ![bg right ](./images/good-fit.jpeg)
+    """, animate_each_line="""
+        - Whenever possible, the "work ticket" has a feature name
         - 2D backlog for context
         - features as excuse for infra
         - just enough infra for features
         - features earn trust for infra 
-        
-        ![bg right ](./images/good-fit.jpeg)
+        - report infra by the feature it enables
     """)
 )
