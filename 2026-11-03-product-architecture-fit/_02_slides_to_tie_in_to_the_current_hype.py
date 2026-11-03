@@ -74,6 +74,6 @@ slides_to_tie_in_to_the_current_hype = (
         - Happy Customers
         - Happy Devs
         
-        ![bg right ](./images/poor-fit.jpeg)
+        ![bg right ](./images/good-fit.jpeg)
     """)
 )

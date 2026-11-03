@@ -688,7 +688,7 @@ That's what we're talking about today
 - Happy Customers
 - Happy Devs
 
-![bg right ](./images/poor-fit.jpeg)
+![bg right ](./images/good-fit.jpeg)
 
 
 ---
